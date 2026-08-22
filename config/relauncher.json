@@ -1,0 +1,14 @@
+{
+  "selectedVersion": "0.6.11-alpha",
+  "latestVersion": "0.6.11-alpha",
+  "targetJavaVersion": 25,
+  "targetVendor": "Azul Zulu",
+  "javaPath": "/home/overlord/.cleanroom/java/zulu25.34.17-ca-jdk25.0.3-linux_x64/zulu25.34.17-ca-jdk25.0.3-linux_x64/bin/java",
+  "args": "-XX:+UseCompactObjectHeaders ",
+  "autoSetup": true,
+  "enableRelauncher": true,
+  "fetchUpdates": true,
+  "clearCleanroomFolder": false,
+  "clearJavaProvisionFolder": false,
+  "darkMode": false
+}

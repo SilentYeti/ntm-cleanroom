@@ -1,0 +1,44 @@
+mods/*
+build/
+.gradle/
+
+# Instance runtime pollution - never commit these to the pakku repo
+logs/
+crash-reports/
+local/
+cache/
+saves/
+screenshots/
+*.log
+hs_err_pid*
+usercache.json
+usernamecache.json
+servers.dat
+servers.dat_old
+options.txt
+crafttweaker.log
+pakku-lock.json.bak
+
+# Leftover import manifests from the original CurseForge/Modrinth pakku import
+# (consumed once by `pakku import`, not needed afterward - pakku.json/pakku-lock.json
+# are the source of truth from here on)
+manifest.json
+modrinth.index.json
+
+# Client-side minimap/waypoint junk that shouldn't ship in the pack repo
+journeymap/
+xaero/
+voxelmap/
+voxelMap/
+vintagefix/
+signpic/
+XaeroWaypoints_BACKUP*/
+waypoints_0.png
+chooser_0.png
+mobs_0.png
+pings_0.png
+hei_bookmarks.ini
+hei_favorites.ini
+
+# Local Claude Code config (machine-specific, not for the shared pack repo)
+.claude/settings.local.json

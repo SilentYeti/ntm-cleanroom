@@ -1,0 +1,117 @@
+{
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -230,
+            "posY" : -35,
+            "width" : 115,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -230,
+            "posY" : -5,
+            "width" : 115,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+
+        "mods":
+        {
+            "text" : "Mods",
+            "posX" : -230,
+            "posY" : 25,
+            "width" : 115,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -230,
+            "posY" : 55,
+            "width" : 115,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+
+        "discord": {
+            "text": "NTM:CE Discord",
+            "posX": -230,
+            "posY": 85,
+            "width": 115,
+            "height": 20,
+            "action": {
+                "type": "openLink",
+                "link": "https://discord.gg/EMu8Sbzwa5"
+            }
+        },
+
+        "wiki": {
+            "text": "NTM Wiki",
+            "posX": -230,
+            "posY": 115,
+            "width": 115,
+            "height": 20,
+            "action": {
+                "type": "openLink",
+                "link": "https://nucleartech.wiki/wiki/Main_Page"
+            }
+        },
+
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : -230,
+            "posY" : 145,
+            "width" : 115,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "quit"
+            }
+        }
+    },
+
+    "other": {
+        "background": {
+            "image": "",
+            "slideshow": {
+                "images": [
+                    "mainmenu:textures/ntm1.png",
+                    "mainmenu:textures/ntm2.png",
+                    "mainmenu:textures/ntm3.png",
+                    "mainmenu:textures/ntm4.png"
+                ],
+                "displayDuration": 150,
+                "fadeDuration": 40
+            }
+        },
+        "options": {
+            "image": "mainmenu:textures/options_bg.png",
+            "mode": "tile"
+        }
+    }
+}

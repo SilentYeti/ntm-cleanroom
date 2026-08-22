@@ -1,0 +1,65 @@
+# It should be said that it is RECOMMENDED to BACKUP ANY vein config files with significant time invested into them; 
+# trying to update the file when auto-generated vein ids are present may cause data loss if a poorly timed error occurs.
+# Additionally, all comments will be removed when auto-generated vein ids are used.
+#
+# There must be a global iteration id [-32768, 32767] ('iteration'). This is stored alongside the vein id for discovered chunks
+# and will cause the saved vein id to be overridden if the iteration id's don't match between the stored and current value.
+#
+# There must be a global megachunk_length which is the side length [4, 180] of the regions in which the weight minimums are respected.
+# There is no guarantee of veins occurring at least once, but they are guaranteed floor(megachunk_length^2 * weight)
+#
+# Example vein definition format.
+# Each vein entry must contain:
+# - id: An auto-generated unique identifier [0, 8191] which allows for vein properties to change; leave as '~' to auto-gen.
+# - key: A unique translation key used for localization or identification.
+# - wealth: An integer (default 1) added to a faction's wealth for each claimed chunk holding this vein.
+# - quals: A list of quality overrides for this vein, with ommitted qualities using the global default in cfg
+#     - <Qual Name>: <float multiplier>
+# - dims: A list of dimension weights, where:
+#     - id: The dimension ID (e.g. -1 for Nether, 0 for Overworld, 1 for End or custom).
+#       weight: A float between 0.0 and 1.0 indicating the relative generation chance in that dimension.
+#       mult: A float between 0.0 and 1.0 which scales the yield of a vein based on the dimension; omission => 1.
+# - components: A list of ore components for the vein, where:
+#     - item: The item ID (e.g. minecraft:iron_ore) to generate in the vein.
+#       yield: How many of this item the vein yields when selected. [float w/ decimal value contributed to bonus chance]
+#       weights: A list of chances to appear on any given harvest of this vein for this component in each dim (omitted dimensions assume a weight of 1.0)
+#          - id [dimension id as int] : weight [chance to appear as float between 0 and 1]
+#       mults: A list of multipliers for this comp in each dim (omitted dimensions use the vein dim multiplier)
+#          - id [dimension id as int] : mult [yield multiplier as float >= 0.0]
+#     NOTE: If component weights are omitted or empty, all are assumed to have a weight of 1.0.
+#
+# All fields are mandatory unless otherwise specified.
+# The number of dimension weights must match the number of dimension IDs.
+# The number of component weights must match the number of components.
+#
+# iteration: 0
+# megachunk_length: 32
+# veins:
+#   - id: ~
+#     key: warforge.veins.iron_mix
+#     wealth: 1
+#     quals:
+#       - RICH: 10
+#         POOR: 0.1
+#     dims:
+#       - id: -1
+#         weight: 0.5
+#         mult: 2
+#       - id: 0
+#         weight: 0.4215
+#       - id: 1
+#         weight: 1.0
+#     components:
+#       - item: minecraft:iron_ore
+#         yield: 2
+#         weights: 
+#           - -1 : 0.75
+#           - 0 : 1.0
+#           [implicit 1.0 weight for dim with id not listed (1, 2, etc)]
+#       - item: minecraft:coal_ore
+#         yield: 1
+#         mults: 
+#           - -1: 4
+#           [implicit 1.0 multiplier for the remaining dimension(s)]
+#    - id: ~
+#...

@@ -1,0 +1,20 @@
+{
+  "comment": "Recipes for the Schrabidium Transmutation Device: input item (matched by item or ore dict) -> output item, gated by an energy (HE) cost.",
+  "recipes": [
+    {
+      "input": ["dict","crystalUranium"],
+      "output": ["hbm:crystal_schraranium"],
+      "energy": 5000000
+    },
+    {
+      "input": ["dict","ingotUranium"],
+      "output": ["hbm:ingot_schraranium"],
+      "energy": 5000000
+    },
+    {
+      "input": ["dict","blockUranium"],
+      "output": ["hbm:block_schraranium"],
+      "energy": 50000000
+    }
+  ]
+}

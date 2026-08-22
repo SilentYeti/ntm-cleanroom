@@ -1,0 +1,13 @@
+{
+    "name": "NTM: Cleanroom",
+    "version": "0.0.1",
+    "overrides": [
+        "config",
+        "scripts"
+    ],
+    "projects": {
+        "journeymap": {
+            "update_strategy": "NONE"
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "comment": "mB of molten metal per ingot melted, and mB consumed per hbm-shape cast, for the Tinkers\u0027 Antique smeltery bridge. Edit and restart to change.",
+  "mbPerIngot": {
+    "ntmsteel": 144,
+    "ntmtitanium": 144,
+    "ntmdesh": 144,
+    "ntmcmbsteel": 144,
+    "ntmschrabidium": 144,
+    "ntmlead": 144,
+    "ntmaluminium": 144,
+    "ntmbismuthbronze": 144,
+    "ntmarsenicbronze": 144,
+    "ntmgunmetal": 144,
+    "ntmweaponsteel": 144,
+    "ntmalloy_carbon": 144,
+    "ntmalloy_bismuth": 144,
+    "ntmalloy_arsenic": 144,
+    "ntmalloy_tungsten": 144,
+    "ntmalloy_magnetized_tungsten": 144
+  },
+  "mbPerShapeCast": {
+    "billet": 144,
+    "blade": 144,
+    "blades": 144,
+    "dense_wire": 144,
+    "mechanism": 144,
+    "plate": 144,
+    "wire": 144,
+    "shell": 144,
+    "pipe": 144,
+    "barrel_light": 144,
+    "barrel_heavy": 144,
+    "receiver_light": 144,
+    "receiver_heavy": 144,
+    "stock": 144,
+    "grip": 144
+  }
+}
