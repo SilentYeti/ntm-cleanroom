@@ -31,13 +31,6 @@ manually from the Actions tab. Each run:
    - a proper tagged release (`v<version from pakku.json>`), skipped if that
      tag already exists — bump the version in `pakku.json` to cut a new one.
 
-### Required repo secret
-
-- `CURSEFORGE_API_KEY` — a CurseForge Core API key, needed because this pack
-  pulls mods from both CurseForge and Modrinth. Get one from the
-  [CurseForge Console](https://console.curseforge.com/) and add it under
-  **Settings → Secrets and variables → Actions**.
-
 ## Building locally
 
 ```sh
