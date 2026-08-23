@@ -645,6 +645,7 @@ minecraft:record_11, Music Disc
 minecraft:record_wait, Music Disc
 chickenchunks:chunk_loader:0, Chunk Loader
 chickenchunks:chunk_loader:1, Spot Loader
+ntmcleanroom:machine_schrabidium_transmutator, Schrabidium Transmutation Device
 clickmachine:auto_clicker, Auto Clicker
 forge:bucketfilled, %s Bucket
 appliedenergistics2:quartz_ore, Certus Quartz Ore
