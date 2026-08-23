@@ -1550,6 +1550,74 @@
             ]
         },
         {
+            "pakku_id": "3MoKIst3qEZQrzZX",
+            "pakku_links": [
+                "4nSerjgoAxjIPBDb"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "groovyscript",
+                "modrinth": "groovyscript"
+            },
+            "name": {
+                "curseforge": "GroovyScript",
+                "modrinth": "GroovyScript"
+            },
+            "id": {
+                "curseforge": "687577",
+                "modrinth": "GJaDRTrb"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "groovyscript-1.4.3.jar",
+                    "mc_versions": [
+                        "1.12.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7925/117/groovyscript-1.4.3.jar",
+                    "id": "7925117",
+                    "parent_id": "687577",
+                    "hashes": {
+                        "sha1": "48ffe55af9173b3f9ee764f678b6b58d70dab90c",
+                        "md5": "58494c850a2e45967c5a37a2ad913cde"
+                    },
+                    "required_dependencies": [
+                        "419286"
+                    ],
+                    "size": 16954096,
+                    "date_published": "2026-04-14T10:26:22.557Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "groovyscript-1.4.3.jar",
+                    "mc_versions": [
+                        "1.12.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/GJaDRTrb/versions/mkViescX/groovyscript-1.4.3.jar",
+                    "id": "mkViescX",
+                    "parent_id": "GJaDRTrb",
+                    "hashes": {
+                        "sha512": "61c6d6061a9a4ddeccaa24bdafb1bfa16ff8982daae30436cb19e88ab1e79608e347efdeeae4ef6bf1d4bb1d6f75008ef84692c8dc62d718e427786bc29ec226",
+                        "sha1": "48ffe55af9173b3f9ee764f678b6b58d70dab90c"
+                    },
+                    "required_dependencies": [
+                        "G1ckZuWK"
+                    ],
+                    "size": 16954096,
+                    "date_published": "2026-04-14T10:26:42.576638Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "ulgdt0L0FWeigwQd",
             "type": "MOD",
             "side": "BOTH",
