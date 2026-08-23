@@ -433,7 +433,12 @@ mods.appliedenergistics2.inscriber.removeByOutput(item('appliedenergistics2:mate
 
 // --- Assembly Machine: AE2 storage/spatial cell Parts + the pack's own
 //     ntmcleanroom-addon machines (schrabidium transmutator, redcoil/
-//     euphemium capacitors) ---
+//     euphemium capacitors) + the warforge:reinforcedclaimblock placeholder
+//     (moved from schizophrenia_warforge.groovy - override() replaces this
+//     entire target rather than merging, so every hbmAssemblyMachine
+//     addition has to live in exactly one override() call or whichever
+//     script runs last silently discards the others') ---
+
 def ae2AssemblyRecipes = '''
     {
       "name": "ass.ae2_1kstorage",
@@ -504,6 +509,13 @@ def ae2AssemblyRecipes = '''
       "outputItem": [["single", ["hbm:euphemium_capacitor"]]],
       "duration": 600,
       "power": 6000
+    },
+    {
+      "name": "ass.warforge_reinforcedclaimblock",
+      "inputItem": [["dict", "circuit", 8, 8]],
+      "outputItem": [["single", ["warforge:reinforcedclaimblock"]]],
+      "duration": 60,
+      "power": 100
     },'''
 def assemblyFile = new File('config/hbmRecipes/hbmAssemblyMachine.json')
 mods.hbm.recipeOverrides.override('hbmAssemblyMachine',

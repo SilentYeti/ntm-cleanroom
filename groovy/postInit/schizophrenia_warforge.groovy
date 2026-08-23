@@ -50,54 +50,14 @@ crafting.addShaped(
 
 // --- New recipes go here ---
 
-// ============================================================================
-// Assembly Machine: warforge:reinforcedclaimblock (PLACEHOLDER)
-//
-// Assembly Machine has no dedicated GroovyScript recipe builder (unlike
-// Press/Shredder/Irradiation Channel above) - the only hook hbm exposes is
-// mods.hbm.recipeOverrides.override(target, json), which REPLACES an entire
-// recipe file's contents rather than adding one entry. So to add just this
-// one recipe without wiping every stock Assembly Machine recipe: read the
-// live config/hbmRecipes/hbmAssemblyMachine.json fresh, append this recipe
-// to its "recipes" array, and hand the whole thing back. Since this always
-// re-reads from disk rather than a previous override, running this block
-// again on every /gs reload replaces cleanly instead of piling up
-// duplicates - safe to iterate on live.
-//
-// TARGET NAME NOT VERIFIED: 'hbmAssemblyMachine' is my best read of the
-// alias hbm derives from the config file's own name
-// (config/hbmRecipes/hbmAssemblyMachine.json minus ".json"), not confirmed
-// against a live session. If this errors, run
-// `log.info(mods.hbm.recipeOverrides.listTargets())` once and check
-// logs/groovy.log for the exact accepted name.
-//
-// Schema reference (from the real file): name / inputItem (list of
-// [type, value] pairs, type "dict" or "single") / outputItem (same shape) /
-// duration (ticks) / power (per tick) / optional blueprintpool /
-// autoSwitchGroup.
-//
-// NO JSON LIBRARY AVAILABLE: groovy.json.JsonSlurper doesn't exist here -
-// GroovyScript bundles Groovy's core runtime but not the separate
-// groovy-json module (confirmed by decompiling the jar - no groovy/json
-// package in it at all), so `unable to resolve class groovy.json.JsonSlurper`
-// at script-compile time is a real missing-class error, not something an
-// import fixes. Rather than fight Gson's much more verbose JsonObject/
-// JsonArray builder API for this, this just inserts the new recipe's JSON
-// text directly after the known "recipes": [ opening in the file - the
-// override(String, String) overload takes raw text, so no parser is needed
-// either way.
-// ============================================================================
-def assemblyFile = new File('config/hbmRecipes/hbmAssemblyMachine.json')
-
-def placeholderRecipe = '''
-    {
-      "name": "ass.warforge_reinforcedclaimblock",
-      "inputItem": [["dict", "obsidian"]],
-      "outputItem": [["single", ["warforge:reinforcedclaimblock"]]],
-      "duration": 60,
-      "power": 100
-    },'''
-
-def modifiedJson = assemblyFile.text.replaceFirst(/"recipes"\s*:\s*\[/, '"recipes": [' + placeholderRecipe)
-
-mods.hbm.recipeOverrides.override('hbmAssemblyMachine', modifiedJson)
+// NOTE: the Assembly Machine recipe for warforge:reinforcedclaimblock lives
+// in groovy/postInit/schizophrenia_ae2.groovy now, not here. hbm's
+// mods.hbm.recipeOverrides.override(target, json) REPLACES an entire
+// target's contents rather than merging - two scripts each calling
+// override('hbmAssemblyMachine', ...) meant whichever ran last (alphabetical
+// order: ae2 -> irradiation -> misc -> warforge) silently wiped out the
+// other's recipes on every reload. That's why the AE2 Assembly Machine
+// recipes weren't actually appearing - every reload, this file's call ran
+// after ae2.groovy's and threw its 10 recipes away, leaving only this one
+// placeholder. Fixed by consolidating every hbmAssemblyMachine addition into
+// a single override() call in schizophrenia_ae2.groovy.
