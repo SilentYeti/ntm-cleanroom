@@ -334,29 +334,8 @@
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "cameraoverhaul-v2.1.0-vintage.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/8197/644/cameraoverhaul-v2.1.0-vintage.jar",
-                    "id": "8197644",
-                    "parent_id": "1283257",
-                    "hashes": {
-                        "sha1": "c0ea1e01d45abb019e9e759110f2d9a54cd61736",
-                        "md5": "a253c28b5bfe7a7aa43e87dd462a978d"
-                    },
-                    "required_dependencies": [],
-                    "size": 787483,
-                    "date_published": "2026-06-04T19:38:28.850Z"
-                },
-                {
                     "type": "modrinth",
-                    "file_name": "cameraoverhaul-v2.1.0-vintage.jar",
+                    "file_name": "cameraoverhaul-v2.1.0.1-vintage.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -364,16 +343,39 @@
                         "forge"
                     ],
                     "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/K2hCr1wS/versions/E0iruY5F/cameraoverhaul-v2.1.0-vintage.jar",
-                    "id": "E0iruY5F",
+                    "url": "https://cdn.modrinth.com/data/K2hCr1wS/versions/EFgIulEE/cameraoverhaul-v2.1.0.1-vintage.jar",
+                    "id": "EFgIulEE",
                     "parent_id": "K2hCr1wS",
                     "hashes": {
-                        "sha512": "64a9658851db1c25c602f6db96506aa283d4f0aa90c5b9a6d086f291e120a2c733725fb5a8259d4ffb9089f2c9e31272a2f62e27f099bc2c140c48a2956036ce",
-                        "sha1": "c0ea1e01d45abb019e9e759110f2d9a54cd61736"
+                        "sha512": "1c95aa7ce1ea9442031de8113f3d9619f8eed77a4d964eb33569b9494472977a59ec97d2941855cf39db6c239646444c7f0ed41aae66b44ecbae9310c90aeed0",
+                        "sha1": "b80234d389af2895f3d32c9b86d4c90e8e8cb4d2"
+                    },
+                    "required_dependencies": [
+                        "G1ckZuWK"
+                    ],
+                    "size": 790013,
+                    "date_published": "2026-07-29T14:15:27.924634Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "cameraoverhaul-v2.1.0.1-vintage.jar",
+                    "mc_versions": [
+                        "1.12.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/8533/896/cameraoverhaul-v2.1.0.1-vintage.jar",
+                    "id": "8533896",
+                    "parent_id": "1283257",
+                    "hashes": {
+                        "sha1": "b80234d389af2895f3d32c9b86d4c90e8e8cb4d2",
+                        "md5": "09394512b420703308aca29f68c26784"
                     },
                     "required_dependencies": [],
-                    "size": 787483,
-                    "date_published": "2026-06-04T19:38:09.611366Z"
+                    "size": 790013,
+                    "date_published": "2026-07-29T14:13:04.757Z"
                 }
             ]
         },
@@ -636,29 +638,8 @@
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "codechickenlib-3.3.5-universal.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6898/525/codechickenlib-3.3.5-universal.jar",
-                    "id": "6898525",
-                    "parent_id": "1328922",
-                    "hashes": {
-                        "sha1": "c1f2f326f3458bf97f45df17043dbc5f258dbd64",
-                        "md5": "0aa2a1a9e008d5bc6cbb5998b9c7d34e"
-                    },
-                    "required_dependencies": [],
-                    "size": 664759,
-                    "date_published": "2025-08-18T00:08:24.323Z"
-                },
-                {
                     "type": "modrinth",
-                    "file_name": "codechickenlib-3.3.5-universal.jar",
+                    "file_name": "codechickenlib-3.3.8-universal.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -666,16 +647,37 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/KphJPRlN/versions/iBR8uRy3/codechickenlib-3.3.5-universal.jar",
-                    "id": "iBR8uRy3",
+                    "url": "https://cdn.modrinth.com/data/KphJPRlN/versions/TxC8fLdQ/codechickenlib-3.3.8-universal.jar",
+                    "id": "TxC8fLdQ",
                     "parent_id": "KphJPRlN",
                     "hashes": {
-                        "sha512": "6b4d052a6a40067b867df54f8819d5f4865bfe910cb6afe298503f10db5541e9d9797e23cdfc3163c1a0c8c5a630f289ae0b1008b0e877495787ccb2e6c8689e",
-                        "sha1": "c1f2f326f3458bf97f45df17043dbc5f258dbd64"
+                        "sha512": "102d3103f37bfde50533a0c23c4cd39cce9f9ffa17b3a8b7d69f49e46b4136bcda77e80401f53c8fbf0da510f9766e9e80f10676a998c2c02e1ba7f3e56bfb23",
+                        "sha1": "9a5ad2c8be23d1ecd1ef3345cde7417aea7f1df0"
                     },
                     "required_dependencies": [],
-                    "size": 664759,
-                    "date_published": "2025-08-18T00:08:28.272920Z"
+                    "size": 665900,
+                    "date_published": "2026-08-01T12:26:54.552046Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "codechickenlib-3.3.8-universal.jar",
+                    "mc_versions": [
+                        "1.12.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8553/938/codechickenlib-3.3.8-universal.jar",
+                    "id": "8553938",
+                    "parent_id": "1328922",
+                    "hashes": {
+                        "sha1": "9a5ad2c8be23d1ecd1ef3345cde7417aea7f1df0",
+                        "md5": "42624c84925b8d8c7c5a525ba7f6aa5d"
+                    },
+                    "required_dependencies": [],
+                    "size": 665900,
+                    "date_published": "2026-08-01T12:26:51.367Z"
                 }
             ]
         },
@@ -925,21 +927,24 @@
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "CreativeCore_v1.10.62_mc1.12.2.jar",
+                    "file_name": "CreativeCore_v1.10.71_mc1.12.2.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
+                    "loaders": [
+                        "forge"
+                    ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/3419/979/CreativeCore_v1.10.62_mc1.12.2.jar",
-                    "id": "3419979",
+                    "url": "https://edge.forgecdn.net/files/4722/163/CreativeCore_v1.10.71_mc1.12.2.jar",
+                    "id": "4722163",
                     "parent_id": "257814",
                     "hashes": {
-                        "sha1": "ffc8e5ac94598c65917cdba235ce6dff1a2e3ada",
-                        "md5": "67092c51e1866003d896860c2f065615"
+                        "sha1": "2c60a20ae9c9431a3b215a331c2b2af7fa3a060c",
+                        "md5": "df1051927921c2852946cc4fd20da86e"
                     },
                     "required_dependencies": [],
-                    "size": 1289841,
-                    "date_published": "2021-08-09T09:08:50.543Z"
+                    "size": 1321137,
+                    "date_published": "2023-08-25T21:17:19.180Z"
                 }
             ]
         },
@@ -1351,7 +1356,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "+Fugue-0.23.6.jar",
+                    "file_name": "+Fugue-0.24.3.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -1359,20 +1364,20 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/vylTACsh/versions/9T43RGc3/+Fugue-0.23.6.jar",
-                    "id": "9T43RGc3",
+                    "url": "https://cdn.modrinth.com/data/vylTACsh/versions/jViSfJQF/+Fugue-0.24.3.jar",
+                    "id": "jViSfJQF",
                     "parent_id": "vylTACsh",
                     "hashes": {
-                        "sha512": "90a599317c979af0f9286590542ecc8c3bc8109ce448df2ea0e1317804451dd349b40cc0d4e9da6243005f84f80416e5ee4391d0a1a080582aff215052f98c34",
-                        "sha1": "4838adc13a1bd5e47361fc65c2e1f97e4ca83fe5"
+                        "sha512": "a7673bb0753c9c15fb17895630b96940637efc8934752ebf0f82ebcfed4cbad865603e63259c803499b707a90018075e9550d991dc981668948fe5782fb9fcc6",
+                        "sha1": "2f0935e476bc218dd4e1b8d9877ad2ae16a66b58"
                     },
                     "required_dependencies": [],
-                    "size": 311578,
-                    "date_published": "2026-06-11T10:01:29.586395Z"
+                    "size": 305146,
+                    "date_published": "2026-08-12T05:04:32.930772Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "+Fugue-0.23.6.jar",
+                    "file_name": "+Fugue-0.24.3.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -1380,16 +1385,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8230/893/+Fugue-0.23.6.jar",
-                    "id": "8230893",
+                    "url": "https://edge.forgecdn.net/files/8629/748/+Fugue-0.24.3.jar",
+                    "id": "8629748",
                     "parent_id": "1005815",
                     "hashes": {
-                        "sha1": "4838adc13a1bd5e47361fc65c2e1f97e4ca83fe5",
-                        "md5": "8d8b431d8e4684e65a9523c2e2a233ef"
+                        "sha1": "2f0935e476bc218dd4e1b8d9877ad2ae16a66b58",
+                        "md5": "46df24198218447bba6698401e5a1c1b"
                     },
                     "required_dependencies": [],
-                    "size": 311578,
-                    "date_published": "2026-06-11T10:01:24.753Z"
+                    "size": 305146,
+                    "date_published": "2026-08-12T05:04:29.743Z"
                 }
             ]
         },
@@ -1626,46 +1631,46 @@
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "HadEnoughItems_1.12.2-4.31.2.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/8081/514/HadEnoughItems_1.12.2-4.31.2.jar",
-                    "id": "8081514",
-                    "parent_id": "557549",
-                    "hashes": {
-                        "sha1": "8fadd6aba6ab128540be2a8a36b86f80c0c21afa",
-                        "md5": "7c82550eb6a2b4673b75a5473ceb1d44"
-                    },
-                    "required_dependencies": [],
-                    "size": 890976,
-                    "date_published": "2026-05-13T07:14:16.250Z"
-                },
-                {
                     "type": "modrinth",
-                    "file_name": "HadEnoughItems_1.12.2-4.31.2.jar",
+                    "file_name": "HadEnoughItems_1.12.2-4.34.3.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
                     "loaders": [
                         "forge"
                     ],
-                    "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/2iXFLwYO/versions/2n6nfyY4/HadEnoughItems_1.12.2-4.31.2.jar",
-                    "id": "2n6nfyY4",
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/2iXFLwYO/versions/KH9dY324/HadEnoughItems_1.12.2-4.34.3.jar",
+                    "id": "KH9dY324",
                     "parent_id": "2iXFLwYO",
                     "hashes": {
-                        "sha512": "f8ad3439e54f33a76155ccd51676647c514690d2b40856197b33d9cbf34c658cdcb7eb57aa071a26da892e92a6b1e946b787d3ad33e2bc8c6591b762a113a199",
-                        "sha1": "8fadd6aba6ab128540be2a8a36b86f80c0c21afa"
+                        "sha512": "363f3ac1ecfdd6d11ab407a2ca4db20f9938ac49c59dbcebbfce821e5f7b005c2ee2bc8744481e28a91b33c800d1f865985d356a2029d85e7a06b04fb51812b5",
+                        "sha1": "e3aaf84758004c37fa1bf49e55418acd3d790708"
                     },
                     "required_dependencies": [],
-                    "size": 890976,
-                    "date_published": "2026-05-13T07:14:37.890847Z"
+                    "size": 957943,
+                    "date_published": "2026-08-14T17:09:00.394932Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "HadEnoughItems_1.12.2-4.34.3.jar",
+                    "mc_versions": [
+                        "1.12.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8648/715/HadEnoughItems_1.12.2-4.34.3.jar",
+                    "id": "8648715",
+                    "parent_id": "557549",
+                    "hashes": {
+                        "sha1": "e3aaf84758004c37fa1bf49e55418acd3d790708",
+                        "md5": "c99b5a93d21d2a54f2750a3962fe5799"
+                    },
+                    "required_dependencies": [],
+                    "size": 957943,
+                    "date_published": "2026-08-14T17:08:51.410Z"
                 }
             ]
         },
@@ -3518,7 +3523,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "xaerolib-forge-1.12.2-1.1.0.jar",
+                    "file_name": "xaerolib-forge-1.12.2-1.7.1.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -3526,20 +3531,20 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/ZaQIxZKn/versions/2EkudBDY/xaerolib-forge-1.12.2-1.1.0.jar",
-                    "id": "2EkudBDY",
+                    "url": "https://cdn.modrinth.com/data/ZaQIxZKn/versions/7o62InvK/xaerolib-forge-1.12.2-1.7.1.jar",
+                    "id": "7o62InvK",
                     "parent_id": "ZaQIxZKn",
                     "hashes": {
-                        "sha512": "12e1b23d5a9ce263db81ac023115441f12a697432f6b1746f4b57481f20395169c63466d1fc3239456b294b50967415b533ffcd2a9b362842c257d57e9a2726a",
-                        "sha1": "4e7132d646d330d28a973543a4ba96ff94944af5"
+                        "sha512": "73ef7eeeba69fccfe3512d7cd7f01f54f93ae5ba263f551affc2c7a1ad0b0f0a730ce655320a4eb04c341c4f64a891a9d4a1eb1caffd00c44a15f6d8fc6b8f3e",
+                        "sha1": "f35b769d624364f0bb95a5053dd73ccdaf3deea3"
                     },
                     "required_dependencies": [],
-                    "size": 597314,
-                    "date_published": "2026-02-05T10:51:16.195960Z"
+                    "size": 617545,
+                    "date_published": "2026-07-17T09:00:38.418864Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "xaerolib-forge-1.12.2-1.1.0.jar",
+                    "file_name": "xaerolib-forge-1.12.2-1.7.1.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -3547,16 +3552,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7579/76/xaerolib-forge-1.12.2-1.1.0.jar",
-                    "id": "7579076",
+                    "url": "https://edge.forgecdn.net/files/8450/80/xaerolib-forge-1.12.2-1.7.1.jar",
+                    "id": "8450080",
                     "parent_id": "1417462",
                     "hashes": {
-                        "sha1": "4e7132d646d330d28a973543a4ba96ff94944af5",
-                        "md5": "56937f0da869cd049d0a3880fff4d485"
+                        "sha1": "f35b769d624364f0bb95a5053dd73ccdaf3deea3",
+                        "md5": "1e756286bb9c5551373748ba2e5ac019"
                     },
                     "required_dependencies": [],
-                    "size": 597314,
-                    "date_published": "2026-02-05T10:36:13.917Z"
+                    "size": 617545,
+                    "date_published": "2026-07-17T09:01:21.263Z"
                 }
             ]
         },
@@ -3658,26 +3663,26 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "soundphysics-1.1.17.jar",
+                    "file_name": "soundphysics-1.3.0-beta.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
                     "loaders": [
                         "forge"
                     ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6858/200/soundphysics-1.1.17.jar",
-                    "id": "6858200",
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/8569/219/soundphysics-1.3.0-beta.jar",
+                    "id": "8569219",
                     "parent_id": "951159",
                     "hashes": {
-                        "sha1": "65dceadfb54ee689b67697438063836ba82671f6",
-                        "md5": "b7605ea1797a870b0fcb24122b5ff9ca"
+                        "sha1": "dd1a3fd059975c7a38182c40f9b0d8cda5c0cbfa",
+                        "md5": "70bab640bb0eb8e5b2aff486bd93f797"
                     },
                     "required_dependencies": [
                         "419286"
                     ],
-                    "size": 75687,
-                    "date_published": "2025-08-07T05:08:01.843Z"
+                    "size": 135695,
+                    "date_published": "2026-08-03T12:51:26.073Z"
                 }
             ]
         }
