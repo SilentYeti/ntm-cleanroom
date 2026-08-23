@@ -46,11 +46,13 @@
 //     CONVERSION_MONITOR=420, INTERFACE=440, P2P_TUNNEL_ME=460,
 //     INTERFACE_TERMINAL=480
 //
-// NOTE on ItemMultiPart:16 in the source script: it's used as a generic
-// "cable" filler ingredient in nearly every recipe, but 16 isn't a real
-// registered part damage value in EITHER AE2 version (not in the old GTNH
-// table, not in AE2UEL's). Treated as shorthand for the cheapest real
-// cable, Glass Cable (part:0), which both tables agree on.
+// NOTE on ItemMultiPart:16, used as a generic "cable" filler ingredient in
+// nearly every recipe below: at the time this file was first ported, 16
+// wasn't a registered part damage value in either AE2 version (not in the
+// old GTNH table, not in AE2UEL's), so part:0 (Glass Cable) was substituted
+// instead. That's since been confirmed no longer the case for this pack's
+// AE2UEL build, so the recipes below use part:16 directly again - if a
+// future AE2UEL update ever un-registers it, fall back to part:0.
 // ============================================================================
 
 // --- Charger ---
@@ -84,9 +86,9 @@ recipes.addShaped(<appliedenergistics2:cell_workbench>,
 // --- Network Tool ---
 recipes.remove(<appliedenergistics2:network_tool>);
 recipes.addShaped(<appliedenergistics2:network_tool>,
-    [[null, <appliedenergistics2:part:0>, null],
-     [<appliedenergistics2:part:0>, <appliedenergistics2:certus_quartz_wrench>, <appliedenergistics2:part:0>],
-     [null, <appliedenergistics2:part:0>, null]]);
+    [[null, <appliedenergistics2:part:16>, null],
+     [<appliedenergistics2:part:16>, <appliedenergistics2:certus_quartz_wrench>, <appliedenergistics2:part:16>],
+     [null, <appliedenergistics2:part:16>, null]]);
 
 // --- Molecular Assembler (ingredient: LogicProcessor=22, matches source) ---
 recipes.remove(<appliedenergistics2:molecular_assembler>);
@@ -99,15 +101,15 @@ recipes.addShaped(<appliedenergistics2:molecular_assembler>,
 recipes.remove(<appliedenergistics2:crafting_unit>);
 recipes.addShaped(<appliedenergistics2:crafting_unit>,
     [[<ore:plateTripleSteel>, <appliedenergistics2:material:23>, <ore:plateTripleSteel>],
-     [<appliedenergistics2:part:0>, <appliedenergistics2:material:22>, <appliedenergistics2:part:0>],
+     [<appliedenergistics2:part:16>, <appliedenergistics2:material:22>, <appliedenergistics2:part:16>],
      [<ore:plateTripleSteel>, <appliedenergistics2:material:23>, <ore:plateTripleSteel>]]);
 
 // --- Crystal Growth Accelerator ---
 recipes.remove(<appliedenergistics2:quartz_growth_accelerator>);
 recipes.addShaped(<appliedenergistics2:quartz_growth_accelerator>,
-    [[<ore:plateTripleSteel>, <appliedenergistics2:part:0>, <ore:plateTripleSteel>],
-     [<appliedenergistics2:part:0>, <appliedenergistics2:fluix_block>, <appliedenergistics2:part:0>],
-     [<ore:plateTripleSteel>, <appliedenergistics2:part:0>, <ore:plateTripleSteel>]]);
+    [[<ore:plateTripleSteel>, <appliedenergistics2:part:16>, <ore:plateTripleSteel>],
+     [<appliedenergistics2:part:16>, <appliedenergistics2:fluix_block>, <appliedenergistics2:part:16>],
+     [<ore:plateTripleSteel>, <appliedenergistics2:part:16>, <ore:plateTripleSteel>]]);
 
 // --- Matter Condenser ---
 recipes.remove(<appliedenergistics2:condenser>);
@@ -120,7 +122,7 @@ recipes.addShaped(<appliedenergistics2:condenser>,
 recipes.remove(<appliedenergistics2:io_port>);
 recipes.addShaped(<appliedenergistics2:io_port>,
     [[<hbm:glass_quartz>, <hbm:glass_quartz>, <hbm:glass_quartz>],
-     [<appliedenergistics2:drive>, <appliedenergistics2:part:0>, <appliedenergistics2:drive>],
+     [<appliedenergistics2:drive>, <appliedenergistics2:part:16>, <appliedenergistics2:drive>],
      [<ore:plateSextupleSteel>, <appliedenergistics2:material:22>, <ore:plateSextupleSteel>]]);
 
 // --- ME Interface (standalone block form, ingredient: LogicProcessor=22 x2, matches source) ---
@@ -129,29 +131,29 @@ recipes.removeByRecipeName("appliedenergistics2:network/blocks/interfaces_interf
 recipes.removeByRecipeName("appliedenergistics2:network/blocks/interfaces_interface_alt");
 recipes.addShaped(<appliedenergistics2:interface>,
     [[<ore:ingotSteel>, <ore:plateTripleSteel>, <ore:ingotSteel>],
-     [<appliedenergistics2:material:22>, <appliedenergistics2:part:0>, <appliedenergistics2:material:22>],
+     [<appliedenergistics2:material:22>, <appliedenergistics2:part:16>, <appliedenergistics2:material:22>],
      [<ore:ingotSteel>, <ore:plateTripleSteel>, <ore:ingotSteel>]]);
 
 // --- ME Chest (ingredient: Terminal part=380, CalcProcessor=23, matches source) ---
 recipes.remove(<appliedenergistics2:chest>);
 recipes.addShaped(<appliedenergistics2:chest>,
     [[<hbm:glass_quartz>, <appliedenergistics2:part:380>, <hbm:glass_quartz>],
-     [<appliedenergistics2:part:0>, <appliedenergistics2:material:23>, <appliedenergistics2:part:0>],
+     [<appliedenergistics2:part:16>, <appliedenergistics2:material:23>, <appliedenergistics2:part:16>],
      [<ore:plateSextupleSteel>, <ore:crystalPureFluix>, <ore:plateSextupleSteel>]]);
 
 // --- Spatial IO Port (ingredient: EngProcessor=24, matches source) ---
 recipes.remove(<appliedenergistics2:spatial_io_port>);
 recipes.addShaped(<appliedenergistics2:spatial_io_port>,
     [[<hbm:glass_quartz>, <hbm:glass_quartz>, <hbm:glass_quartz>],
-     [<appliedenergistics2:part:0>, <appliedenergistics2:io_port>, <appliedenergistics2:part:0>],
+     [<appliedenergistics2:part:16>, <appliedenergistics2:io_port>, <appliedenergistics2:part:16>],
      [<ore:plateSextupleSteel>, <appliedenergistics2:material:24>, <ore:plateSextupleSteel>]]);
 
 // --- Spatial Pylon ---
 recipes.remove(<appliedenergistics2:spatial_pylon>);
 recipes.addShaped(<appliedenergistics2:spatial_pylon>,
-    [[<hbm:glass_quartz>, <appliedenergistics2:part:0>, <hbm:glass_quartz>],
+    [[<hbm:glass_quartz>, <appliedenergistics2:part:16>, <hbm:glass_quartz>],
      [<ore:dustFluix>, <ore:crystalPureFluix>, <ore:dustFluix>],
-     [<hbm:glass_quartz>, <appliedenergistics2:part:0>, <hbm:glass_quartz>]]);
+     [<hbm:glass_quartz>, <appliedenergistics2:part:16>, <hbm:glass_quartz>]]);
 
 // --- ME Security Terminal (Security Station) ---
 // Source used Cell16kPart=37 (matches AE2UEL's CELL16K_PART=37 exactly)
@@ -159,7 +161,7 @@ recipes.addShaped(<appliedenergistics2:spatial_pylon>,
 recipes.remove(<appliedenergistics2:security_station>);
 recipes.addShaped(<appliedenergistics2:security_station>,
     [[<ore:plateSextupleSteel>, <appliedenergistics2:chest>, <ore:plateSextupleSteel>],
-     [<appliedenergistics2:part:0>, <appliedenergistics2:material:37>, <appliedenergistics2:part:0>],
+     [<appliedenergistics2:part:16>, <appliedenergistics2:material:37>, <appliedenergistics2:part:16>],
      [<ore:plateSextupleSteel>, <appliedenergistics2:material:24>, <ore:plateSextupleSteel>]]);
 
 // --- ME Controller ---
@@ -173,7 +175,7 @@ recipes.addShaped(<appliedenergistics2:controller>,
 recipes.remove(<appliedenergistics2:drive>);
 recipes.addShaped(<appliedenergistics2:drive>,
     [[<ore:plateTripleSteel>, <appliedenergistics2:material:24>, <ore:plateTripleSteel>],
-     [<appliedenergistics2:part:0>, null, <appliedenergistics2:part:0>],
+     [<appliedenergistics2:part:16>, null, <appliedenergistics2:part:16>],
      [<ore:plateTripleSteel>, <appliedenergistics2:material:24>, <ore:plateTripleSteel>]]);
 
 // --- Quantum Ring (EngProcessor=24 outer x2, LogicProcessor=22 sides x2, matches source) ---
