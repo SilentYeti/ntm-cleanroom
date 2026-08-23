@@ -63,3 +63,209 @@
 #           [implicit 1.0 multiplier for the remaining dimension(s)]
 #    - id: ~
 #...
+ 
+iteration: 0
+megachunk_length: 32
+
+veins:
+
+- id: 0
+  key: warforge.veins.iron_mix
+  wealth: 1
+  quals:
+  - {RICH: 10, POOR: 0.1}
+  dims:
+  - {id: -1, weight: 0.5, mult: 2}
+  - {id: 0, weight: 0.10}
+  - {id: 1, weight: 1.0}
+  components:
+  - item: minecraft:iron_ore
+    yield: 2
+    weights:
+    - {-1: 0.75}
+    - {0: 1.0}
+    - {1: 1.0}
+  - item: hbm:crystal_iron
+    yield: 4
+    weights:
+    - {-1: 0.05}
+    - {0: 0.05}
+    - {1: 0.05}
+    mults:
+    - {-1: 4}
+
+- id: 1
+  key: warforge.veins.gold_mix
+  wealth: 1
+  quals:
+  - {RICH: 10, POOR: 0.1}
+  dims:
+  - {id: -1, weight: 0.5, mult: 2}
+  - {id: 0, weight: 0.10}
+  - {id: 1, weight: 1.0}
+  components:
+  - item: minecraft:gold_ore
+    yield: 2
+    weights:
+    - {-1: 0.75}
+    - {0: 1.0}
+  - item: hbm:ore_lead
+    yield: 1
+    mults:
+    - {-1: 4}
+
+- id: 2
+  key: warforge.veins.coal.mix
+  wealth: 1
+  quals:
+  - {RICH: 10, POOR: 0.1}
+  dims:
+  - {id: -1, weight: 0.5, mult: 2}
+  - {id: 0, weight: 0.10}
+  - {id: 1, weight: 1.0}
+  components:
+  - item: minecraft:coal_ore
+    yield: 3
+    weights:
+    - {-1: 0.75}
+    - {0: 1.0}
+  - item: hbm:lignite
+    yield: 4
+    mults:
+    - {-1: 4}
+
+- id: 3
+  key: warforge.veins.copper.mix
+  wealth: 1
+  quals:
+  - {RICH: 10, POOR: 0.1}
+  dims:
+  - {id: -1, weight: 0.5, mult: 2}
+  - {id: 0, weight: 0.10}
+  - {id: 1, weight: 1.0}
+  components:
+  - item: minecraft:gold_ore
+    yield: 3
+    weights:
+    - {-1: 0.75}
+    - {0: .25}
+  - item: minecraft:copper_ore
+    yield: 1
+    mults:
+    - {-1: 4}
+
+- id: 4
+  key: warforge.veins.radioactive.mix
+  wealth: 1
+  quals:
+  - {RICH: 10, POOR: 0.1}
+  dims:
+  - {id: -1, weight: 0.2, mult: 2}
+  - {id: 0, weight: 0.05}
+  - {id: 1, weight: 1.0}
+  components:
+  - item: hbm:ore_uranium
+    yield: 3
+    weights:
+    - {-1: 0.75}
+    - {0: 0.33}
+  - item: hbm:ore_thorium
+    yield: 1
+    mults:
+    - {-1: 4}
+
+- id: 5
+  key: warforge.veins.redstone
+  wealth: 1
+  quals:
+  - {RICH: 10, POOR: 0.1}
+  dims:
+  - {id: -1, weight: 0.5, mult: 2}
+  - {id: 0, weight: 0.10}
+  - {id: 1, weight: 1.0}
+  components:
+  - item: minecraft:redstone_ore
+    yield: 3
+    weights:
+    - {-1: 0.75}
+    - {0: .7}
+  - item: hbm:ore_cinnabar
+    yield: 1
+    mults:
+    - {-1: 4}
+
+- id: 6
+  key: warforge.veins.rare
+  wealth: 1
+  quals:
+  - {RICH: 4, POOR: 0.1}
+  dims:
+  - {id: -1, weight: 0.1, mult: 2}
+  - {id: 0, weight: 0.05}
+  - {id: 1, weight: 1.0}
+  components:
+  - item: hbm:ore_rare
+    yield: 3
+    weights:
+    - {-1: 0.19}
+    - {0: 0.1}
+
+- id: 7
+  key: warforge.veins.hard
+  wealth: 1
+  quals:
+  - {RICH: 5, POOR: 0.1}
+  dims:
+  - {id: -1, weight: 0.1, mult: 2}
+  - {id: 0, weight: 0.05}
+  - {id: 1, weight: 1.0}
+  components:
+  - item: hbm:ore_titanium
+    yield: 3
+    weights:
+    - {-1: 0.75}
+    - {0: 1.0}
+  - item: hbm:ore_tungsten
+    yield: 3
+    weights:
+    - {-1: 0.75}
+    - {0: 1.4}
+
+- id: 8
+  key: warforge.veins.explosive
+  wealth: 1
+  quals:
+  - {RICH: 2, POOR: 0.1}
+  dims:
+  - {id: -1, weight: 0.1, mult: 2}
+  - {id: 0, weight: 0.05}
+  - {id: 1, weight: 1.0}
+  components:
+  - item: hbm:ore_niter
+    yield: 3
+    weights:
+    - {-1: 0.75}
+    - {0: 1.0}
+  - item: hbm:ore_sulfur
+    yield: 3
+    weights:
+    - {-1: 0.75}
+    - {0: 4.0}
+
+- id: 9
+  key: warforge.veins.diamond
+  wealth: 1
+  quals:
+  - {RICH: 10, POOR: 0.1}
+  dims:
+  - {id: -1, weight: 0.5, mult: 2}
+  - {id: 0, weight: 0.10}
+  - {id: 1, weight: 1.0}
+  components:
+  - item: minecraft:diamond_ore
+    yield: 2
+    weights:
+    - {-1: 0.75}
+    - {0: 1.0}
+
+ 
