@@ -6,11 +6,17 @@
 // recipes.removeByMod("warforge") has no direct GroovyScript equivalent -
 // crafting only offers removeByOutput/removeByInput/remove(name)/removeAll,
 // no "remove everything from this modid" - so this filters the live recipe
-// stream by registry-name domain and bulk-removes the matches instead.
+// stream by registry name and bulk-removes the matches instead.
+//
+// NOTE: registryName.resourceDomain threw "groovy.lang.MissingPropertyException:
+// No such property: resourceDomain" at runtime on this Cleanroom build -
+// whatever ResourceLocation exposes here, it isn't that. toString() always
+// renders as "namespace:path" though, so matching against that sidesteps
+// needing the exact getter name.
 // ============================================================================
 
 crafting.streamRecipes()
-    .filter { it.registryName.resourceDomain == 'warforge' }
+    .filter { it.registryName.toString().startsWith('warforge:') }
     .removeAll()
 
 // --- For reference, this is what shipped by default (all in assets/warforge/recipes/) ---

@@ -214,7 +214,11 @@ crafting.addShaped(item('appliedenergistics2:material', 52) * 4,
      [null, ore('ingotAnyHardPlastic'), null]])
 
 // --- Sky Stone Block (x16, meteor removed - crafted directly) ---
-crafting.removeByOutput(item('appliedenergistics2:sky_stone_block'))
+// No removeByOutput here: AE2UEL doesn't register a default crafting-table
+// recipe for this at all in this pack ("No recipes found for
+// 1xtile.appliedenergistics2.sky_stone_block@0" at runtime) - CraftTweaker's
+// recipes.remove() silently no-ops on a miss, GroovyScript just isn't quiet
+// about it.
 crafting.addShaped(item('appliedenergistics2:sky_stone_block') * 16,
     [[null, item('hbm:fragment_meteorite'), null],
      [item('hbm:fragment_meteorite'), ore('cobblestone'), item('hbm:fragment_meteorite')],
