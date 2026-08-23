@@ -41,7 +41,15 @@ def ae2ChemicalPlantRecipes = '''
       "outputItem": [["single", ["appliedenergistics2:material", 2, 7]]],
       "duration": 100,
       "power": 100
-    },'''
+    },
+    {
+      "name": "chem.fallenstar_xp",
+      "inputItem": [["item", "nyx:fallen_star", 1]],
+      "outputFluid": [["XPJUICE", 1000]],
+      "duration": 100,
+      "power": 100
+    },
+    '''
 def chemicalPlantFile = new File('config/hbmRecipes/hbmChemicalPlant.json')
 mods.hbm.recipeOverrides.override('hbmChemicalPlant',
     chemicalPlantFile.text.replaceFirst(/"recipes"\s*:\s*\[/, '"recipes": [' + ae2ChemicalPlantRecipes))
