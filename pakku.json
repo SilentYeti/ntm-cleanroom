@@ -5,7 +5,7 @@
         "config",
         "scripts",
         "groovy",
-        "resourcepacks"
+        "resources"
     ],
     "projects": {
         "journeymap": {
