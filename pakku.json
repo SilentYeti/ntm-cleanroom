@@ -4,7 +4,8 @@
     "overrides": [
         "config",
         "scripts",
-        "groovy"
+        "groovy",
+        "resourcepacks"
     ],
     "projects": {
         "journeymap": {

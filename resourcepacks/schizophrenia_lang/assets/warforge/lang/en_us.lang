@@ -1,0 +1,19 @@
+# Custom vein names for this pack's config/warforge/veins.yml.
+# Deliberately NOT using the "%s <Name> Vein" pattern the mod's own stock
+# examples use (e.g. "warforge.veins.gold=%s Gold Vein") - unconfirmed
+# whether every UI that reads a vein's key actually supplies a quality
+# String.format arg, and a %s with no arg supplied throws
+# MissingFormatArgumentException rather than degrading gracefully. Plain
+# names are safe either way: an unused arg is silently ignored by
+# String.format, so nothing breaks if some other screen does pass one.
+
+warforge.veins.iron_mix=Iron Vein
+warforge.veins.gold_mix=Gold-Lead Vein
+warforge.veins.coal.mix=Coal Vein
+warforge.veins.copper.mix=Gold-Copper Vein
+warforge.veins.radioactive.mix=Uranium-Thorium Vein
+warforge.veins.redstone=Redstone-Cinnabar Vein
+warforge.veins.rare=Rare Earth Vein
+warforge.veins.hard=Titanium-Tungsten Vein
+warforge.veins.explosive=Niter-Sulfur Vein
+warforge.veins.diamond=Diamond Vein
