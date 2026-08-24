@@ -149,7 +149,7 @@ veins:
     weights:
     - {-1: 0.75}
     - {0: .25}
-  - item: minecraft:copper_ore
+  - item: hbm:ore_copper
     yield: 1
     mults:
     - {-1: 4}

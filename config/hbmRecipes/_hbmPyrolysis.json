@@ -328,6 +328,13 @@
       "duration": 100
     },
     {
+      "inputFluid": ["SYNGAS",2000],
+      "inputItem": ["dict","dustTungsten"],
+      "outputFluid": ["SPENTSTEAM",1000],
+      "outputItem": ["hbm:ingot_tungsten_carbide"],
+      "duration": 300
+    },
+    {
       "inputFluid": ["STEAM",250],
       "inputItem": ["dict","gemAnyCoke"],
       "outputFluid": ["SYNGAS",1000],

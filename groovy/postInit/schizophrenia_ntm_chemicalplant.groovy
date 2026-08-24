@@ -1,55 +1,49 @@
 // ============================================================================
 // Chemical Plant: the raw-material chain for AE2's own basic materials
-// (Certus Quartz Crystal, Fluix Crystal, Quartz Fiber part).
+// (Certus Quartz Crystal, Fluix Crystal, Quartz Fiber part) + the
+// fallen-star-to-XP-juice recipe.
 //
-// Split out of schizophrenia_ae2.groovy into its own file (one file per NTM
-// machine). See schizophrenia_ntm_assemblymachine.groovy's header for the
-// full explanation of the override(target, json)-replaces-not-merges
-// mechanism and why no JSON library is used here.
+// Converted from the earlier config-JSON-override hack to NTM-CE's new
+// dedicated native GroovyScript integration: mods.hbm.chemicalPlant. See
+// schizophrenia_ntm_assemblymachine.groovy's header for the full rationale
+// and the item()/ore() syntax notes (2nd arg to item() is META, not count;
+// use * N for count).
 //
-// TARGET NAME NOT VERIFIED against a live session - 'hbmChemicalPlant' is
-// my best read of the config file's own name. If this errors, run
-// `log.info(mods.hbm.recipeOverrides.listTargets())` once and check
-// logs/groovy.log for the accepted name.
-//
-// Schema (from the real file): name / inputItem (list of [type, value...]
-// pairs) / inputFluid (list of [fluidName, amount]) / outputItem (same
-// shape as inputItem, type "single") / duration (ticks) / power (per tick).
+// hbm's own FluidStack type (not Forge's) is required here - construct with
+// new com.hbm.inventory.fluid.FluidStack(com.hbm.inventory.fluid.Fluids.X, mB).
 // ============================================================================
 
-def ae2ChemicalPlantRecipes = '''
-    {
-      "name": "chem.ae2_quartzfiber",
-      "inputItem": [["item", "hbm:powder_quartz", 1], ["item", "hbm:ingot_fiberglass", 1]],
-      "inputFluid": [["WATER", 2000]],
-      "outputItem": [["single", ["appliedenergistics2:multi_part", 2, 140]]],
-      "duration": 100,
-      "power": 100
-    },
-    {
-      "name": "chem.ae2_certus",
-      "inputItem": [["item", "hbm:powder_quartz", 1]],
-      "inputFluid": [["WATER", 2000]],
-      "outputItem": [["single", ["appliedenergistics2:material", 1, 0]]],
-      "duration": 100,
-      "power": 100
-    },
-    {
-      "name": "chem.ae2_fluix",
-      "inputItem": [["item", "appliedenergistics2:material", 1, 1], ["item", "minecraft:redstone", 1]],
-      "inputFluid": [["WATER", 2000]],
-      "outputItem": [["single", ["appliedenergistics2:material", 2, 7]]],
-      "duration": 100,
-      "power": 100
-    },
-    {
-      "name": "chem.fallenstar_xp",
-      "inputItem": [["item", "nyx:fallen_star", 1]],
-      "outputFluid": [["XPJUICE", 1000]],
-      "duration": 100,
-      "power": 100
-    },
-    '''
-def chemicalPlantFile = new File('config/hbmRecipes/hbmChemicalPlant.json')
-mods.hbm.recipeOverrides.override('hbmChemicalPlant',
-    chemicalPlantFile.text.replaceFirst(/"recipes"\s*:\s*\[/, '"recipes": [' + ae2ChemicalPlantRecipes))
+mods.hbm.chemicalPlant.recipeBuilder()
+    .name('chem.ae2_quartzfiber')
+    .input(item('hbm:powder_quartz'), item('hbm:ingot_fiberglass'))
+    .inputFluid(new com.hbm.inventory.fluid.FluidStack(com.hbm.inventory.fluid.Fluids.WATER, 2000))
+    .output(item('appliedenergistics2:part', 140) * 2)
+    .duration(100)
+    .power(100)
+    .register()
+
+mods.hbm.chemicalPlant.recipeBuilder()
+    .name('chem.ae2_certus')
+    .input(item('hbm:powder_quartz'))
+    .inputFluid(new com.hbm.inventory.fluid.FluidStack(com.hbm.inventory.fluid.Fluids.WATER, 2000))
+    .output(item('appliedenergistics2:material', 0))
+    .duration(100)
+    .power(100)
+    .register()
+
+mods.hbm.chemicalPlant.recipeBuilder()
+    .name('chem.ae2_fluix')
+    .input(item('appliedenergistics2:material', 1), item('minecraft:redstone'))
+    .inputFluid(new com.hbm.inventory.fluid.FluidStack(com.hbm.inventory.fluid.Fluids.WATER, 2000))
+    .output(item('appliedenergistics2:material', 7) * 2)
+    .duration(100)
+    .power(100)
+    .register()
+
+mods.hbm.chemicalPlant.recipeBuilder()
+    .name('chem.fallenstar_xp')
+    .input(item('nyx:fallen_star'))
+    .outputFluid(new com.hbm.inventory.fluid.FluidStack(com.hbm.inventory.fluid.Fluids.XPJUICE, 1000))
+    .duration(500)
+    .power(1000)
+    .register()

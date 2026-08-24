@@ -821,43 +821,18 @@
             ]
         },
         {
-            "pakku_id": "UW08CB6AEEafH1OF",
+            "pakku_id": "aV4caLuR66MR8v3M",
             "type": "MOD",
-            "side": "CLIENT",
             "slug": {
-                "curseforge": "creativecore",
-                "modrinth": "creativecore"
+                "curseforge": "creativecore"
             },
             "name": {
-                "curseforge": "CreativeCore",
-                "modrinth": "CreativeCore"
+                "curseforge": "CreativeCore"
             },
             "id": {
-                "curseforge": "257814",
-                "modrinth": "OsZiaDHq"
+                "curseforge": "257814"
             },
             "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "CreativeCore_v1.10.62_mc1.12.2.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/OsZiaDHq/versions/1.10.62/CreativeCore_v1.10.62_mc1.12.2.jar",
-                    "id": "KQPGT13V",
-                    "parent_id": "OsZiaDHq",
-                    "hashes": {
-                        "sha512": "3b8b512db37790e0a7541b2efffb50f8e78c9bf5990ed2d51848f68c9470597ab7eed78839de8968fc68a3a8e87457ef023ab57cd8d12a718270361c05ee7fd1",
-                        "sha1": "ffc8e5ac94598c65917cdba235ce6dff1a2e3ada"
-                    },
-                    "required_dependencies": [],
-                    "size": 1289841,
-                    "date_published": "2021-08-17T09:10:08.975683Z"
-                },
                 {
                     "type": "curseforge",
                     "file_name": "CreativeCore_v1.10.71_mc1.12.2.jar",
@@ -1547,70 +1522,6 @@
                     ],
                     "size": 16954096,
                     "date_published": "2026-04-14T10:26:42.576638Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "ulgdt0L0FWeigwQd",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "hbm-nuclear-tech-mod-community-edition",
-                "modrinth": "ntm-ce"
-            },
-            "name": {
-                "curseforge": "HBM's Nuclear Tech Mod: Community Edition",
-                "modrinth": "HBM Nuclear Tech Mod: Community Edition"
-            },
-            "id": {
-                "curseforge": "1312314",
-                "modrinth": "oKqJzTkl"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "NTM-CE-1.12.2-2.5.0.5.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/oKqJzTkl/versions/BV15Mbxf/NTM-CE-1.12.2-2.5.0.5.jar",
-                    "id": "BV15Mbxf",
-                    "parent_id": "oKqJzTkl",
-                    "hashes": {
-                        "sha512": "8ccfa497449f2ae99965499792022f65b04134a37d5d2846d16acb50985a6926b9a55e6584fbedd703942bf20f41cd13b953c90b218ac0e5adda9174ff4104ab",
-                        "sha1": "276363c2076df85125807cf729b2c9c1a6751554"
-                    },
-                    "required_dependencies": [],
-                    "size": 74310509,
-                    "date_published": "2026-06-27T18:13:00.638027Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "NTM-CE-1.12.2-2.5.0.5.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8330/665/NTM-CE-1.12.2-2.5.0.5.jar",
-                    "id": "8330665",
-                    "parent_id": "1312314",
-                    "hashes": {
-                        "sha1": "276363c2076df85125807cf729b2c9c1a6751554",
-                        "md5": "c6127264bd8f5bf1d1ec9c4848c8c433"
-                    },
-                    "required_dependencies": [
-                        "419286",
-                        "267602"
-                    ],
-                    "size": 74310509,
-                    "date_published": "2026-06-27T18:10:23.017Z"
                 }
             ]
         },

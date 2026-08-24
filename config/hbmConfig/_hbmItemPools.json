@@ -15,6 +15,8 @@
       [["hbm:can_mrsugar"],1,2,2],
       [["hbm:cap_nuka"],1,16,2],
       [["hbm:book_guide_book",1,3],1,1,1],
+      [["hbm:deco_computer"],1,1,1],
+      [["hbm:blueprint_folder"],1,1,1],
       [["hbm:coin_token"],1,1,2]
     ],
     "POOL_BLACK_PART": [
@@ -119,10 +121,10 @@
       [["minecraft:map"],1,1,50],
       [["minecraft:writable_book"],1,1,30],
       [["hbm:cigarette"],1,16,20],
-      [["hbm:toothpicks"],1,16,10],
       [["hbm:dust"],1,1,40],
       [["hbm:dust_tiny"],1,3,75],
       [["hbm:ink"],1,1,1],
+      [["hbm:screwdriver"],1,1,1],
       [["hbm:blueprint_folder"],1,1,5],
       [["hbm:coin_token"],1,1,30]
     ],
@@ -433,7 +435,8 @@
       [["hbm:boxcar"],1,1,5],
       [["hbm:book_of_"],1,1,5],
       [["hbm:gun_hangman"],1,1,1],
-      [["hbm:gun_mas36"],1,1,1]
+      [["hbm:gun_mas36"],1,1,1],
+      [["hbm:item_secret",1,4],1,1,1]
     ],
     "POOL_NUKE_TRASH": [
       [["hbm:nugget_u238"],3,12,5],
@@ -490,12 +493,14 @@
       [["hbm:armor_polish"],1,1,3],
       [["hbm:gun_kit_1"],1,1,3],
       [["hbm:rag"],1,3,5],
-      [["hbm:ammo_container"],1,1,1],
-      [["hbm:coin_token"],1,1,5],
       [["minecraft:paper"],1,6,7],
       [["minecraft:clock"],1,1,3],
       [["minecraft:book"],1,5,10],
-      [["minecraft:experience_bottle"],1,3,1]
+      [["minecraft:experience_bottle"],1,3,1],
+      [["hbm:blueprint_folder"],1,1,1],
+      [["hbm:blueprint_folder",1,1],1,1,1],
+      [["hbm:ammo_container"],1,1,1],
+      [["hbm:coin_token"],1,1,5]
     ],
     "POOL_METEOR_SAFE": [
       [["hbm:book_of_"],1,1,1],
