@@ -272,13 +272,13 @@ crafting.addShaped(item('appliedenergistics2:part', 380),
 crafting.removeByOutput(item('appliedenergistics2:part', 240))
 crafting.addShaped(item('appliedenergistics2:part', 240),
     [[null, item('appliedenergistics2:material', 24), null],
-     [ore('ingotSteel'), item('minecraft:piston'), ore('ingotSteel')]])
+     [ore('ingotSteel'), item('minecraft:hopper'), ore('ingotSteel')]])
 
 // --- ME Export Bus (part 260, uses Logic Processor=22) ---
 crafting.removeByOutput(item('appliedenergistics2:part', 260))
 crafting.addShaped(item('appliedenergistics2:part', 260),
     [[ore('ingotSteel'), item('appliedenergistics2:material', 22), ore('ingotSteel')],
-     [null, item('minecraft:piston'), null]])
+     [null, item('minecraft:hopper'), null]])
 
 // --- P2P Tunnel - ME (part 460, uses Eng Processor=24) ---
 crafting.removeByOutput(item('appliedenergistics2:part', 460))
@@ -316,6 +316,11 @@ crafting.addShaped(item('appliedenergistics2:part', 320),
 crafting.removeByOutput(item('appliedenergistics2:part', 420))
 crafting.addShaped(item('appliedenergistics2:part', 420),
     [[item('appliedenergistics2:material', 24), item('appliedenergistics2:part', 400), item('appliedenergistics2:material', 22)]])
+
+mods.hbm.shredder.recipeBuilder()
+    .input(item('appliedenergistics2:material'))
+    .output(item('appliedenergistics2:material', 2))
+    .register()
 
 // ============================================================================
 // Machine-exclusive items: the source pack removed the vanilla crafting-
