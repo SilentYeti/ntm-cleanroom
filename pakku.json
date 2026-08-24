@@ -1,6 +1,6 @@
 {
     "name": "NTM: Cleanroom",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "overrides": [
         "config",
         "scripts",
