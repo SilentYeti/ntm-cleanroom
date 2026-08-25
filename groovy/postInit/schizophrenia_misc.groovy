@@ -15,6 +15,11 @@ crafting.removeByOutput(item('betterquesting:extra_life', 2))
 crafting.removeByOutput(item('betterquesting:submit_station'))
 // betterquesting:observation_station was removed in the source pack too, but
 // that item id doesn't exist in BetterQuestingUnofficial 4.3.2 - skipped.
+crafting.removeByOutput(item('hbm:desh_sword'))
+crafting.removeByOutput(item('hbm:cobalt_sword'))
+mods.hbm.anvil_construction.remove(item('hbm:cobalt_decorated_sword'))
+crafting.removeByOutput(item('hbm:starmetal_sword'))
+crafting.removeByOutput(item('hbm:cmb_sword'))
 
 // --- Storage Drawers: gate behind NTM's wooden Mass Storage Unit ---
 // CONFIDENCE NOTE: storagedrawers:basicdrawers is a single block with meta
