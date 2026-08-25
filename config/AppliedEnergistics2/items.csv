@@ -990,7 +990,6 @@ appliedenergistics2:facade:0, Cable Facade - Birch Trim
 appliedenergistics2:facade:0, Cable Facade - Jungle Trim
 appliedenergistics2:facade:0, Cable Facade - Acacia Trim
 appliedenergistics2:facade:0, Cable Facade - Dark Oak Trim
-appliedenergistics2:facade:0, Cable Facade - Tornado Sensor
 appliedenergistics2:facade:0, Cable Facade - Compact Raw Porkchop
 appliedenergistics2:facade:0, Cable Facade - Gelid Euphemium
 appliedenergistics2:facade:0, Cable Facade - Unstable Euphemium Schrabide Block
@@ -1386,13 +1385,6 @@ appliedenergistics2:facade:0, Cable Facade - ICF Laser Casing
 appliedenergistics2:facade:0, Cable Facade - Watz Reaction Chamber
 appliedenergistics2:facade:0, Cable Facade - Watz Reactor Supercooler
 appliedenergistics2:facade:0, Cable Facade - Watz Stability Element
-appliedenergistics2:facade:0, Cable Facade - Particle Accelerator Plating
-appliedenergistics2:facade:0, Cable Facade - Particle Accelerator Plating (Blue)
-appliedenergistics2:facade:0, Cable Facade - Particle Accelerator Plating (Black)
-appliedenergistics2:facade:0, Cable Facade - Particle Accelerator Plating (YelloDye)
-appliedenergistics2:facade:0, Cable Facade - Particle Accelerator Plating (Cool Hazard Stripes)
-appliedenergistics2:facade:0, Cable Facade - Particle Accelerator Plating (VOLTZ)
-appliedenergistics2:facade:0, Cable Facade - Particle Accelerator Plating (Window)
 appliedenergistics2:facade:0, Cable Facade - Dense Superconducting Coil
 appliedenergistics2:facade:0, Cable Facade - Dense Gold Coil
 appliedenergistics2:facade:0, Cable Facade - Dense Neodymium Coil
@@ -1402,8 +1394,6 @@ appliedenergistics2:facade:0, Cable Facade - Dense Schrabidate Coil
 appliedenergistics2:facade:0, Cable Facade - Dense Starmetal Coil
 appliedenergistics2:facade:0, Cable Facade - Dense Chlorophyte Coil
 appliedenergistics2:facade:0, Cable Facade - Dense Mese Coil
-appliedenergistics2:facade:0, Cable Facade - Particle Accelerator Analysis Chamber Wall
-appliedenergistics2:facade:0, Cable Facade - Particle Accelerator Analysis Chamber Window
 appliedenergistics2:facade:0, Cable Facade - Radiation Absorber
 appliedenergistics2:facade:0, Cable Facade - Radiation Absorber (LEGACY)
 appliedenergistics2:facade:0, Cable Facade - Enhanced Radiation Absorber (LEGACY)
@@ -1652,8 +1642,6 @@ betterquesting:guide_book, Better Questing Starter Guide
 bq_standard:loot_chest, Loot Chest
 betterquesting:quest_book, Quest Book
 betterquesting:submit_station, Object Submission Station (OSS)
-coroutil:repairing_block, Repairing Block
-coroutil:item_repairing_gel, Repairing Gel
 gravestone:gravestone, Grave
 gravestone:death_info, Obituary
 nyx:star_block, Star Block
@@ -1764,17 +1752,6 @@ storagedrawers:customdrawers:3, Framed Half Drawers 1x2
 storagedrawers:customdrawers:4, Framed Half Drawers 2x2
 storagedrawers:customtrim, Framed Trim
 storagedrawers:framingtable, Framing Table
-weather2:sand_layer_placeable, Placeable Sand Layer
-weather2:weather_item, Weather Item
-weather2:pocket_sand, Pocket Sand!
-weather2:tornado_sensor, Tornado Sensor
-weather2:tornado_siren, Weather Siren
-weather2:tornado_siren_manual, Manual Redstone Siren
-weather2:wind_vane, Wind Vane
-weather2:weather_forecast, Weather Radar
-weather2:weather_machine, Weather Machine (right click to cycle)
-weather2:weather_deflector, Weather Deflector
-weather2:anemometer, Anemometer
 ichunutil:compact_porkchop, Compact Raw Porkchop
 gravitygun:gravitygun:0, Gravity Gun
 gravitygun:gravitygun:1, Supercharged Gravity Gun
@@ -2483,8 +2460,6 @@ hbm:block_cap:2, Block of S~Cola RAD Bottle Caps
 hbm:block_cap:3, Block of S~Cola Bottle Caps
 hbm:block_cap:4, Block of Korl Bottle Caps
 hbm:block_cap:5, Block of Fritz Cola Bottle Caps
-hbm:block_cap:6, Block of Sunset Sarsaparilla Bottle Caps
-hbm:block_cap:7, Block of Sunset Sarsaparilla Star Caps
 hbm:nuke_gadget, The Gadget
 hbm:nuke_boy, Little Boy
 hbm:nuke_man, Fat Man
@@ -2676,7 +2651,6 @@ hbm:crate_red, Red Crate
 hbm:crate_iron, Iron Crate
 hbm:crate_steel, Steel Crate
 hbm:crate_desh, Desh Crate
-hbm:crate_template, Template Crate
 hbm:crate_tungsten, Tungsten Crate
 hbm:crate_can, Conserve Crate
 hbm:crate_jungle, Enargite Crate
@@ -2854,6 +2828,7 @@ hbm:machine_autosaw, Automatic Buzz Saw
 hbm:machine_excavator, Large Mining Drill
 hbm:machine_ore_slopper, Bedrock Ore Processor
 hbm:machine_annihilator, Annihilator
+hbm:machine_rockmill, Rock Mill
 hbm:machine_mining_laser, Mining Laser
 hbm:sandbags, Sandbags
 hbm:machine_turbofan, Turbofan
@@ -2947,8 +2922,6 @@ hbm:pwr_block, PWR
 hbm:fusion_heater, Plasma Heater Component
 hbm:fusion_hatch, Duct Deco Block
 hbm:fusion_core_block, Fusion Reactor Control
-hbm:iter, Fusion Reactor
-hbm:plasma_heater, Plasma Heater
 hbm:fusion_component:0, Superconducting BSCCO Coils
 hbm:fusion_component:1, Fusion Reactor Blanket
 hbm:fusion_component:2, Welded BSCCO Coils
@@ -2988,13 +2961,6 @@ hbm:dfc_injector, DFC Fuel Injector
 hbm:dfc_receiver, DFC Receiver
 hbm:dfc_stabilizer, DFC Stabilizer
 hbm:dfc_core, Dark Fusion Core
-hbm:hadron_plating, Particle Accelerator Plating
-hbm:hadron_plating_blue, Particle Accelerator Plating (Blue)
-hbm:hadron_plating_black, Particle Accelerator Plating (Black)
-hbm:hadron_plating_yellow, Particle Accelerator Plating (YelloDye)
-hbm:hadron_plating_striped, Particle Accelerator Plating (Cool Hazard Stripes)
-hbm:hadron_plating_voltz, Particle Accelerator Plating (VOLTZ)
-hbm:hadron_plating_glass, Particle Accelerator Plating (Window)
 hbm:hadron_coil_alloy, Dense Superconducting Coil
 hbm:hadron_coil_gold, Dense Gold Coil
 hbm:hadron_coil_neodymium, Dense Neodymium Coil
@@ -3004,12 +2970,6 @@ hbm:hadron_coil_schrabidate, Dense Schrabidate Coil
 hbm:hadron_coil_starmetal, Dense Starmetal Coil
 hbm:hadron_coil_chlorophyte, Dense Chlorophyte Coil
 hbm:hadron_coil_mese, Dense Mese Coil
-hbm:hadron_diode, Schottky Particle Diode
-hbm:hadron_analysis, Particle Accelerator Analysis Chamber Wall
-hbm:hadron_analysis_glass, Particle Accelerator Analysis Chamber Window
-hbm:hadron_access, Particle Accelerator Access Terminal
-hbm:hadron_core, Particle Accelerator Core Component
-hbm:hadron_power, Particle Accelerator Power Plug (1MHE)
 hbm:pa_source, Particle Source
 hbm:pa_beamline, Beamline
 hbm:pa_rfc, RF Cavity
@@ -3178,6 +3138,7 @@ hbm:corium_block, Corium
 hbm:volcanic_lava_block, Volcanic Lava
 hbm:rad_lava_block, Volcanic Lava
 hbm:sulfuric_acid_block, Sulfuric Acid
+hbm:turret_mob_filter, Turret Mob Filter
 hbm:redstone_sword, Redstone Sword
 hbm:big_sword, Great Sword
 hbm:dosimeter, Dosimeter
@@ -3558,25 +3519,25 @@ hbm:canister_fuel:49, Canister: Fracking Solution
 hbm:canister_fuel:89, Canister: Hydrazine
 hbm:canister_napalm, Napalm B
 hbm:gas_empty, Empty Gas Tank
-hbm:gas_full:38, Gas Tank:: Liquid Hydrogen
-hbm:gas_full:8, Gas Tank:: Deuterium
-hbm:gas_full:9, Gas Tank:: Tritium
-hbm:gas_full:57, Gas Tank:: Helium-3
-hbm:gas_full:124, Gas Tank:: Helium-4
-hbm:gas_full:39, Gas Tank:: Liquid Oxygen
-hbm:gas_full:40, Gas Tank:: Xenon Gas
-hbm:gas_full:90, Gas Tank:: Chlorine Gas
-hbm:gas_full:156, Gas Tank:: Flue Gas
-hbm:gas_full:23, Gas Tank:: Natural Gas
-hbm:gas_full:24, Gas Tank:: Petroleum Gas
-hbm:gas_full:94, Gas Tank:: Sour Gas
-hbm:gas_full:86, Gas Tank:: Syngas
-hbm:gas_full:67, Gas Tank:: Aromatic Hydrocarbons
-hbm:gas_full:68, Gas Tank:: Unsaturated Hydrocarbons
-hbm:gas_full:100, Gas Tank:: Reformate Gas
-hbm:gas_full:26, Gas Tank:: Biogas
-hbm:gas_full:102, Gas Tank:: Phosgene
-hbm:gas_full:103, Gas Tank:: Mustard Gas
+hbm:gas_full:38, Gas Tank: Liquid Hydrogen
+hbm:gas_full:8, Gas Tank: Deuterium
+hbm:gas_full:9, Gas Tank: Tritium
+hbm:gas_full:57, Gas Tank: Helium-3
+hbm:gas_full:124, Gas Tank: Helium-4
+hbm:gas_full:39, Gas Tank: Liquid Oxygen
+hbm:gas_full:40, Gas Tank: Xenon Gas
+hbm:gas_full:90, Gas Tank: Chlorine Gas
+hbm:gas_full:156, Gas Tank: Flue Gas
+hbm:gas_full:23, Gas Tank: Natural Gas
+hbm:gas_full:24, Gas Tank: Petroleum Gas
+hbm:gas_full:94, Gas Tank: Sour Gas
+hbm:gas_full:86, Gas Tank: Syngas
+hbm:gas_full:67, Gas Tank: Aromatic Hydrocarbons
+hbm:gas_full:68, Gas Tank: Unsaturated Hydrocarbons
+hbm:gas_full:100, Gas Tank: Reformate Gas
+hbm:gas_full:26, Gas Tank: Biogas
+hbm:gas_full:102, Gas Tank: Phosgene
+hbm:gas_full:103, Gas Tank: Mustard Gas
 hbm:cell:0, Empty Cell
 hbm:cell:29, Uranium Hexafluoride Cell
 hbm:cell:30, Plutonium Hexafluoride Cell
@@ -4440,9 +4401,7 @@ hbm:multitool_decon, Power Fist (Decontaminator)
 hbm:gun_b92, §9B92 Energy Pistol§r
 hbm:gun_b93, §cB93 Energy Mod§r
 hbm:gun_supershotgun, Super Shotgun
-hbm:gun_jshotgun, Occult Shotgun
 hbm:gun_vortex, Vortex
-hbm:gun_egon, Gluon Gun
 hbm:gun_moist_nugget, Mosin-Nagant
 hbm:crucible, Crucible
 hbm:stick_dynamite, Stick of Dynamite
@@ -4464,6 +4423,7 @@ hbm:ingot_combine_steel, CMB Steel Ingot
 hbm:ingot_dura_steel, High-Speed Steel Ingot
 hbm:ingot_technetium, Technetium-99 Ingot
 hbm:ingot_tcalloy, Technetium Steel Ingot
+hbm:ingot_tungsten_carbide, Tungsten Carbide Ingot
 hbm:ingot_cdalloy, Cadmium Steel Ingot
 hbm:ingot_polymer, Polymer Bar
 hbm:ingot_bakelite, Bakelite Bar
@@ -5567,7 +5527,6 @@ hbm:powder_ash:3, Fly Ash
 hbm:powder_ash:4, Fine Soot
 hbm:powder_ash:5, Fullerene
 hbm:powder_cement, Cement
-hbm:toothpicks, Toothpicks
 hbm:ducttape, Duct Tape
 hbm:catalyst_clay, Clay Catalyst
 hbm:motor, Motor
@@ -5647,6 +5606,13 @@ hbm:fragment_boron, Boron Fragment
 hbm:fragment_coltan, Coltan
 hbm:demon_core_open, Suspended Demon Core
 hbm:demon_core_closed, Closed Demon Core
+hbm:cap_nuka, Nuka Cola Bottle Cap
+hbm:cap_quantum, Nuka Cola Quantum Bottle Cap
+hbm:cap_sparkle, S~Cola Bottle Cap
+hbm:cap_rad, S~Cola RAD Bottle Cap
+hbm:cap_korl, Korl Bottle Cap
+hbm:cap_fritz, Fritz Cola Bottle Cap
+hbm:ring_pull, Ring Pull
 hbm:bottle_opener, Hbm's Own Self-Made Bottle Opener
 hbm:bottle_empty, Empty Bomb-Shaped Bottle
 hbm:bottle_nuka, Bottle of Nuka Cola
@@ -5665,15 +5631,6 @@ hbm:chocolate_milk, Chocolate Milk
 hbm:coffee, Coffee
 hbm:coffee_radium, Radium Coffee
 hbm:chocolate, Ithis-Brand Radium Chocolate
-hbm:cap_nuka, Nuka Cola Bottle Cap
-hbm:cap_quantum, Nuka Cola Quantum Bottle Cap
-hbm:cap_sparkle, S~Cola Bottle Cap
-hbm:cap_rad, S~Cola RAD Bottle Cap
-hbm:cap_korl, Korl Bottle Cap
-hbm:cap_fritz, Fritz Cola Bottle Cap
-hbm:cap_sunset, Sunset Sarsaparilla Bottle Cap
-hbm:cap_star, Sunset Sarsaparilla Star Cap
-hbm:ring_pull, Ring Pull
 hbm:bomb_waffle, Waffle of Mass Destruction
 hbm:schnitzel_vegan, Vegan Schnitzel
 hbm:cotton_candy, Radioactive Cotton Candy
@@ -6224,7 +6181,6 @@ hbm:turret_chip, Turret AI-Chip
 hbm:turret_biometry, Turret Telemetry Card
 hbm:designator_arty_range, Long Range Artillery Remote
 hbm:book_guide_book:1, Guide Book
-hbm:book_guide_book:2, Guide Book
 hbm:book_guide_book:3, Guide Book
 hbm:book_guide_book:4, Guide Book
 hbm:book_lore, item.book_lore.name
@@ -6636,8 +6592,6 @@ hbm:particle_empty, Empty Particle Capsule
 hbm:particle_hydrogen, Hydrogen Ion Capsule
 hbm:particle_copper, Copper Ion Capsule
 hbm:particle_lead, Lead Ion Capsule
-hbm:particle_aproton, Antiproton Capsule
-hbm:particle_aelectron, Positron Capsule
 hbm:particle_muon, Muon Capsule
 hbm:particle_amat, Antimatter Capsule
 hbm:particle_aschrab, Antischrabidium Capsule
@@ -6846,7 +6800,7 @@ hbm:fluid_icon:123, Poison Smoke
 hbm:fluid_icon:132, Booster Pheromone
 hbm:fluid_icon:133, Modified Booster Pheromone
 hbm:fluid_icon:89, Hydrazine
-hbm:fluid_icon:1000, hbmfluid.custom_demo
+hbm:fluid_icon:1000, Custom Fluid Demo
 hbm:gadget_explosive, First Generation Explosive Lens
 hbm:gadget_explosive8, Bundle of First Generation Implosion Propellant
 hbm:gadget_wireing, Wiring
