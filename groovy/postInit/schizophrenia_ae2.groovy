@@ -37,6 +37,38 @@
 // part:16 is used throughout as a generic "cable" filler ingredient.
 // ============================================================================
 
+// -- Shit remover --
+crafting.removeByOutput(item('hbm:gun_b92'))
+crafting.removeByOutput(item('hbm:schrabidium_sword'))
+crafting.removeByOutput(item('hbm:apple_lead'))
+crafting.removeByOutput(item('hbm:apple_lead', 1))
+crafting.removeByOutput(item('hbm:apple_lead', 2))
+crafting.removeByOutput(item('hbm:apple_schrabidium'))
+crafting.removeByOutput(item('hbm:apple_schrabidium', 1))
+crafting.removeByOutput(item('hbm:apple_schrabidium', 2))
+crafting.removeByOutput(item('hbm:apple_euphemium'))
+
+// --- Versatile Integrated Circuit ---
+crafting.addShaped(item('hbm:circuit', 6)),
+    [[item('hbm:plate_polymer'), item('hbm:plate_polymer'), item('hbm:plate_polymer')],
+     [item('hbm:circuit', 4), ore('nuggetAnyBismoid'), item('hbm:circuit', 4)],
+     [ore('wireFineGold'), ore('wireFineGold'), ore('wireFineGold')]]
+
+crafting.addShaped(item('hbm:circuit', 6)),
+    [[item('hbm:plate_polymer'), item('hbm:plate_polymer'), item('hbm:plate_polymer')],
+     [item('hbm:circuit', 4), ore('nuggetAnyBismoid'), item('hbm:circuit', 4)],
+     [ore('wireFineCopper'), ore('wireFineCopper'), ore('wireFineCopper')]]
+
+// --- Backpacks TODO---
+
+
+// --- AutoClicker ---
+crafting.removeByOutput(item('clickmachine:auto_clicker'))
+crafting.addShaped(item('clickmachine:auto_clicker'),
+    [[item('hbm:plate_cast', 30), ore('dustRedstone'), item('hbm:plate_cast', 30)],
+     [ore('dustRedstone'), item('hbm:cm_engine'), ore('dustRedstone')],
+     [item('hbm:plate_cast', 30), ore('dustRedstone'), item('hbm:plate_cast', 30)]])
+
 // --- Charger ---
 crafting.removeByOutput(item('appliedenergistics2:charger'))
 crafting.addShaped(item('appliedenergistics2:charger'),
