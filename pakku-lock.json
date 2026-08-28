@@ -455,67 +455,6 @@
             ]
         },
         {
-            "pakku_id": "CaVrqWGzoYyQAmm8",
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "curseforge": "cleanroom-relauncher",
-                "modrinth": "cleanroom-relauncher"
-            },
-            "name": {
-                "curseforge": "Cleanroom Relauncher",
-                "modrinth": "Cleanroom Relauncher"
-            },
-            "id": {
-                "curseforge": "1214490",
-                "modrinth": "HYV8rIOO"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "!cleanroom-relauncher-1.1.1.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/HYV8rIOO/versions/VjrStK6A/!cleanroom-relauncher-1.1.1.jar",
-                    "id": "VjrStK6A",
-                    "parent_id": "HYV8rIOO",
-                    "hashes": {
-                        "sha512": "51d5fe5e08348d00d7bf5f1b5e70b3f450bfa2c6a41591de090a5182f1293eec2ec6cbf21cdf08fef2c5c1e10d5c8b172f8059b6f73568086c3412419fe97770",
-                        "sha1": "fe41b1dabc2947eb35b38ef3ebba34defc2aa547"
-                    },
-                    "required_dependencies": [],
-                    "size": 2793620,
-                    "date_published": "2026-08-20T16:24:12.804539Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "!cleanroom-relauncher-1.1.1.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8692/662/!cleanroom-relauncher-1.1.1.jar",
-                    "id": "8692662",
-                    "parent_id": "1214490",
-                    "hashes": {
-                        "sha1": "fe41b1dabc2947eb35b38ef3ebba34defc2aa547",
-                        "md5": "9e122fbc6f8ae45954fe1b07913ca917"
-                    },
-                    "required_dependencies": [],
-                    "size": 2793620,
-                    "date_published": "2026-08-20T16:23:59.737Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "6zqbUN0DGnEyWv7o",
             "pakku_links": [
                 "bNMs4GhD422G5SR6"
@@ -746,44 +685,6 @@
                     ],
                     "size": 34383,
                     "date_published": "2024-06-08T08:22:52.780Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "cXPP0NTfxKC2wj2j",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "coroutil",
-                "modrinth": "coroutil"
-            },
-            "name": {
-                "curseforge": "CoroUtil",
-                "modrinth": "CoroUtil"
-            },
-            "id": {
-                "curseforge": "237749",
-                "modrinth": "rLLJ1OZM"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "coroutil-1.12.1-1.2.37.jar",
-                    "mc_versions": [
-                        "1.12.1",
-                        "1.12.2"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/2902/920/coroutil-1.12.1-1.2.37.jar",
-                    "id": "2902920",
-                    "parent_id": "237749",
-                    "hashes": {
-                        "sha1": "90392789dfbcadf440415a775d3ec81326deee2f",
-                        "md5": "350c216784bb54cffc538325ab52d4cc"
-                    },
-                    "required_dependencies": [],
-                    "size": 2327451,
-                    "date_published": "2020-03-16T06:56:08.743Z"
                 }
             ]
         },
@@ -1744,6 +1645,67 @@
                     ],
                     "size": 4512954,
                     "date_published": "2026-05-31T03:09:40.800Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "I6IWPeiEARwieKV7",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "improved-cleanroom-relauncher",
+                "modrinth": "improved-cleanroom-relauncher"
+            },
+            "name": {
+                "curseforge": "Improved Cleanroom Relauncher",
+                "modrinth": "Improved Cleanroom Relauncher"
+            },
+            "id": {
+                "curseforge": "1336201",
+                "modrinth": "RPniVkER"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "!improved-relauncher-0.3.8.jar",
+                    "mc_versions": [
+                        "1.12.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/RPniVkER/versions/dyNfb9Sa/!improved-relauncher-0.3.8.jar",
+                    "id": "dyNfb9Sa",
+                    "parent_id": "RPniVkER",
+                    "hashes": {
+                        "sha512": "bd198791cde656f6eb9a20baa76f570aaf37a3e2f28ed8d6a6c2ff898f8bf8d2138d3c93fcaf1e844765bc00e5dd6509a78878b67db1076dc7789e1702cb48ae",
+                        "sha1": "91876176e33c24c68ce187e376002a2749b3a239"
+                    },
+                    "required_dependencies": [],
+                    "size": 403520,
+                    "date_published": "2026-03-16T22:16:25.266768Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "!improved-relauncher-0.3.8.jar",
+                    "mc_versions": [
+                        "1.12.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7769/30/!improved-relauncher-0.3.8.jar",
+                    "id": "7769030",
+                    "parent_id": "1336201",
+                    "hashes": {
+                        "sha1": "91876176e33c24c68ce187e376002a2749b3a239",
+                        "md5": "ec4c13ba9914601fdc92e198acf36426"
+                    },
+                    "required_dependencies": [],
+                    "size": 403520,
+                    "date_published": "2026-03-16T22:17:02.937Z"
                 }
             ]
         },
@@ -3373,46 +3335,6 @@
                     "required_dependencies": [],
                     "size": 94115,
                     "date_published": "2023-06-07T19:26:34.315967Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "FxNiDFyq9viXUoyy",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "weather-storms-tornadoes",
-                "modrinth": "weather-storms-tornadoes"
-            },
-            "name": {
-                "curseforge": "Weather, Storms & Tornadoes",
-                "modrinth": "Weather Storms & Tornadoes"
-            },
-            "id": {
-                "curseforge": "237746",
-                "modrinth": "dv5SFk5T"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "weather2-1.12.1-2.6.12.jar",
-                    "mc_versions": [
-                        "1.12.1",
-                        "1.12.2"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/2596/867/weather2-1.12.1-2.6.12.jar",
-                    "id": "2596867",
-                    "parent_id": "237746",
-                    "hashes": {
-                        "sha1": "894fa38627f7d11bfe8ea11f3aa6fb5901d73abe",
-                        "md5": "486d7c789eb29050aa7b04dc5c834c50"
-                    },
-                    "required_dependencies": [
-                        "237749"
-                    ],
-                    "size": 4550732,
-                    "date_published": "2018-08-02T19:36:14.773Z"
                 }
             ]
         },

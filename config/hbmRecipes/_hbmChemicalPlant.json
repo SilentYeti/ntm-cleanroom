@@ -740,13 +740,13 @@
         ["item","hbm:pellet_charged"]
       ],
       "inputFluid": [
-        ["SAS3",8000],
-        ["PEROXIDE",6000]
+        ["SAS3",2000],
+        ["PEROXIDE",2000]
       ],
       "outputFluid": [
-        ["SCHRABIDIC",16000]
+        ["SCHRABIDIC",2000]
       ],
-      "duration": 100,
+      "duration": 60,
       "power": 5000
     },
     {

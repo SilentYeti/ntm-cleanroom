@@ -176,7 +176,7 @@
     {
       "name": "blast.firebrickLimestone",
       "inputItem": [
-        ["dict","oreLimestone"],
+        ["dict","dustLimestone"],
         ["item","minecraft:clay_ball",6]
       ],
       "outputItem": [

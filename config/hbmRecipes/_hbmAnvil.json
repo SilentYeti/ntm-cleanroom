@@ -629,6 +629,20 @@
     },
     {
       "inputs": [
+        ["dict","stone",16],
+        ["dict","plateSteel",4],
+        ["dict","ntmpipeCopper"],
+        ["item","hbm:motor"]
+      ],
+      "outputs": [
+        ["hbm:machine_rockmill",1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
         ["dict","ingotSteel",8],
         ["dict","plateCopper",4],
         ["item","hbm:motor",2],
@@ -932,6 +946,20 @@
       ],
       "outputs": [
         ["hbm:machine_autosaw",1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["dict","plateSteel",8],
+        ["dict","ingotIron",12],
+        ["dict","ingotCopper",2],
+        ["item","hbm:circuit"]
+      ],
+      "outputs": [
+        ["hbm:machine_thresher",1.0]
       ],
       "tierLower": 2,
       "tierUpper": -1,
@@ -2688,8 +2716,8 @@
       "outputs": [
         ["hbm:plate_steel",16,1.0],
         ["hbm:ingot_beryllium",6,1.0],
-        ["hbm:ingot_copper",8,1.0],
-        ["hbm:coil_gold",16,1.0]
+        ["hbm:ingot_copper",4,1.0],
+        ["hbm:coil_gold",8,1.0]
       ],
       "tierLower": 2,
       "tierUpper": -1,
@@ -2913,6 +2941,50 @@
       "outputs": [
         ["hbm:lithium",1.0],
         ["hbm:cell",1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "RECYCLING"
+    },
+    {
+      "inputs": [
+        ["item","hbm:billet_ra226be",3]
+      ],
+      "outputs": [
+        ["hbm:pile_rod",1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "RECYCLING"
+    },
+    {
+      "inputs": [
+        ["item","hbm:billet_po210be",3]
+      ],
+      "outputs": [
+        ["hbm:pile_rod",1,1,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "RECYCLING"
+    },
+    {
+      "inputs": [
+        ["dict","billetZirconium",3]
+      ],
+      "outputs": [
+        ["hbm:pile_rod",1,2,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "RECYCLING"
+    },
+    {
+      "inputs": [
+        ["dict","billetUranium",3]
+      ],
+      "outputs": [
+        ["hbm:pile_rod",1,3,1.0]
       ],
       "tierLower": 2,
       "tierUpper": -1,

@@ -9029,7 +9029,7 @@
             "id:8": "minecraft:stick"
           },
           "countAsQuest:1": 1,
-          "desc:8": "§r§r§5NTM: Cleanroom§r comes packed with many QoL mods as well as some mods that aren\u0027t very apparent at first.\n\n1) §dHyxcate§r adds Blood Moons, semi-rare events where mob spawning is increased and the player can\u0027t sleep. There is also a few other events like Full Moons, Harvest Moons, etc. Blood Moons are quite useful however since mobs have a small chance to drop items such as §§§6Launch §r§6Codes§r and §6Geiger Counters §rwhich are useful early on.\n\n2) §dWeather2§r adds storms and other natural disasters. Admittedly, I only added it for aestethic reasons. \n\n3) §dEpic Siege Mod§r alters the mob behavior and stats to make them more of a threat to the player. They\u0027re now able to break various blocks, tower up, run faster, etc.\n\n4) §dWarforge§r is an advanced claim mod which offers sieges, ore vein income mechanics, and a more cohesive team system. Check out the Warforge section in the questbook!",
+          "desc:8": "§r§r§5NTM: Cleanroom§r comes packed with many QoL mods as well as some mods that aren\u0027t very apparent at first.\n\n1) §dHyxcate§r adds Blood Moons, semi-rare events where mob spawning is increased and the player can\u0027t sleep. There is also a few other events like Full Moons, Harvest Moons, etc. Blood Moons are quite useful however since mobs have a small chance to drop items such as §§§6Launch §r§6Codes§r and §6Geiger Counters §rwhich are useful early on.\n\n2) §dEpic Siege Mod§r alters the mob behavior and stats to make them more of a threat to the player. They\u0027re now able to break various blocks, tower up, run faster, etc.\n\n3) §dWarforge§r is an advanced claim mod which offers sieges, ore vein income mechanics, and a more cohesive team system. Check out the Warforge section in the questbook!",
           "icon:10": {
             "Count:3": 1,
             "id:8": "hbm:radio_torch_logic"
@@ -13511,7 +13511,8 @@
     },
     "297:10": {
       "preRequisites:11": [
-        227
+        227,
+        875362029
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -13597,7 +13598,8 @@
     },
     "300:10": {
       "preRequisites:11": [
-        227
+        227,
+        875362029
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -13934,6 +13936,1312 @@
             "0:10": {
               "Count:3": 1,
               "id:8": "warforge:reinforcedclaimblock"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "311:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "The §6§6§6§6§6§6§6§6§6§6§6§6§6§6§6§6§6§6§6§6§6§6§6§6§6§6§6§6§6§6§6§6§6§6§6§6§6§6Pepperbox §r§r§r§r§r§r§r§r§r§r§r§r§r§r§r§r§r§r§r§r§r§r§r§r§r§r§r§r§r§r§r§r§r§r§r§r§r§ris the first gun you can get your hands on. It is a 6 round black powder weapon with terrible accuracy, low damage, and often ricochets off of blocks. \n\nTo be honest, you probably wouldn\u0027t want to bring this to a gunfight.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_pepperbox"
+          },
+          "name:8": "Pepperbox",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649829,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 2,
+              "id:8": "hbm:ammo_standard"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_pepperbox"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "312:10": {
+      "preRequisites:11": [
+        1823649829
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "The§6 Break-Action Revolver§r is a direct upgrade to the Pepperbox, using a stronger ammunition, and being more accurate and does more damage. It has a caveat of using black powder ammunition, which produces a lot of smoke, and is not as strong as modern ammunition.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_light_revolver"
+          },
+          "name:8": "Break-Action Revolver",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649830,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_light_revolver"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 4,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "313:10": {
+      "preRequisites:11": [
+        1823649830
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "Craft the Lever Action Rifle.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_henry"
+          },
+          "name:8": "Lever Action Rifle",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649832,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_henry"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 10,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "314:10": {
+      "preRequisites:11": [
+        1823649832
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "Craft the Grease Gun.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_greasegun"
+          },
+          "name:8": "Grease Gun",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649834,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_greasegun"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 20,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "315:10": {
+      "preRequisites:11": [
+        1823649832
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "Craft the Lever Action Shotgun.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_maresleg"
+          },
+          "name:8": "Lever Action Shotgun",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649835,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_maresleg"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 41,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "316:10": {
+      "preRequisites:11": [
+        1823649846
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "The §6Flare Gun§6§r is a single-shot emergency tool designed to launch out signal flares. You can either launch the base flare which does nothing, or the supply and weapon flares that once shot in the sky, delivers down randomized free loot. You are not able to craft the supply and weapon flares, however I will be giving some out in this questbook, so watch out for that. \n\nBy the way, this was modelled by the proud belgian, §5§dGlowker§r, who also did the model for the C-130 which does the deliveries. (He is also a good friend of the dev team behind this modpack).",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_flaregun"
+          },
+          "name:8": "Flare Gun",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649837,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_flaregun"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 50,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "317:10": {
+      "preRequisites:11": [
+        1823649846
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "The§6 Target Pistol§r is a .22lr Semi-Automatic Pistol with 15 rounds. Since this uses modern rounds, its almost entirely smokeless. The accuracy isn\u0027t very good mid-range, and almost entirely requires aiming down the sights to get accurate shots. ",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_star_f"
+          },
+          "name:8": "Target Pistol",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649839,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_star_f"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 16,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "318:10": {
+      "preRequisites:11": [
+        1823649850
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "Craft the Liberator.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_liberator"
+          },
+          "name:8": "Liberator",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649841,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_liberator"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 44,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "319:10": {
+      "preRequisites:11": [
+        1823649851
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "Craft the Congo Lake.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_congolake"
+          },
+          "name:8": "Congo Lake",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649842,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_congolake"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 53,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "320:10": {
+      "preRequisites:11": [
+        1823649842
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "Craft the Grenade Machinegun.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_mk108"
+          },
+          "name:8": "Grenade Machinegun",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649843,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_mk108"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 53,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "321:10": {
+      "preRequisites:11": [
+        1823649877
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "Craft the Flamethrower.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_flamer"
+          },
+          "name:8": "Flamethrower",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649844,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_flamer"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 63,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "322:10": {
+      "preRequisites:11": [
+        1823649844
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "Craft the Mister Topaz.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_flamer_topaz"
+          },
+          "name:8": "Mister Topaz",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649845,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_flamer_topaz"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 63,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "323:10": {
+      "preRequisites:11": [
+        1823649830
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "The §6Heavy Revolver§r is a stronger pistol using .44 Magnum, however only the black powder variant. It has similar problems to the Break-Action Revolver, with it producing a lot of smoke and still not being super accurate.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_heavy_revolver"
+          },
+          "name:8": "Heavy Revolver",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649846,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_heavy_revolver"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 10,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "324:10": {
+      "preRequisites:11": [
+        1823649832
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "Craft the Carbine.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_carbine"
+          },
+          "name:8": "Carbine",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649847,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_carbine"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 28,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "325:10": {
+      "preRequisites:11": [
+        1823649834
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "Craft the Uzi.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_uzi"
+          },
+          "name:8": "Uzi",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649848,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_uzi"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 20,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "326:10": {
+      "preRequisites:11": [
+        1823649835
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "Craft the SPAS-12.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_spas12"
+          },
+          "name:8": "SPAS-12",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649850,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_spas12"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 44,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "327:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "The§6 Panzerschreck§r is by all accounts the worst rocket launcher to use. It does the least damage and has this useless shielding at the front of it which just blocks your vision. However, it is the cheapest rocket launcher you can get your hands on, which gives it some creedence to be used. However, i\u0027d save your rockets for the ones later down the questline. ",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_panzerschreck"
+          },
+          "name:8": "Panzerschreck",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649851,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 5,
+              "Damage:2": 58,
+              "id:8": "hbm:ammo_standard"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_panzerschreck"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 58,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "328:10": {
+      "preRequisites:11": [
+        1823649847
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "Craft the Assault Rifle.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_g3"
+          },
+          "name:8": "Assault Rifle",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649852,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_g3"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 24,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "329:10": {
+      "preRequisites:11": [
+        1823649863
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "Craft the FIM-92 Stinger.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_stinger"
+          },
+          "name:8": "FIM-92 Stinger",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649854,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_stinger"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 59,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "330:10": {
+      "preRequisites:11": [
+        1823649863
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "Craft the Quad Rocket Launcher.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_quadro"
+          },
+          "name:8": "Quad Rocket Launcher",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649860,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_quadro"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 58,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "331:10": {
+      "preRequisites:11": [
+        1823649851
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "Craft the Missile Launcher.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_missile_launcher"
+          },
+          "name:8": "Missile Launcher",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649863,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_missile_launcher"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 59,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "332:10": {
+      "preRequisites:11": [
+        1823649860
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "Craft the Tesla Cannon.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_tesla_cannon"
+          },
+          "name:8": "Tesla Cannon",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649864,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_tesla_cannon"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 67,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "333:10": {
+      "preRequisites:11": [
+        1823649869
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "Craft the Laser Pistol.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_laser_pistol"
+          },
+          "name:8": "Laser Pistol",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649865,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_laser_pistol"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 67,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "334:10": {
+      "preRequisites:11": [
+        1823649852
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "Craft the StG 77.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_stg77"
+          },
+          "name:8": "StG 77",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649867,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_stg77"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 25,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "335:10": {
+      "preRequisites:11": [
+        1823649867
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "Craft the Tau Cannon.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_tau"
+          },
+          "name:8": "Tau Cannon",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649869,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_tau",
+              "tag:10": {
+                "magtype:3": 144
+              }
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 70,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "336:10": {
+      "preRequisites:11": [
+        1823649869
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "Craft the Laser Rifle.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_lasrifle"
+          },
+          "name:8": "Laser Rifle",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649870,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_lasrifle"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 67,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "337:10": {
+      "preRequisites:11": [
+        1823649851
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "The§6 Charge Thrower §rhas multiple uses at its disposal. On one end, you can use the demolition charges to destroy non-block resistant materials like stone, dirt, etc. On the other, it works as a grappling hook, allowing you to scale large amounts of blocks upward.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_charge_thrower"
+          },
+          "name:8": "Charge Thrower",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649872,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_charge_thrower"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 91,
+              "id:8": "hbm:ammo_standard"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "338:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "completion_animation:8": "default",
+          "completion_particle:8": "default",
+          "confetti_icon:10": {
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stick"
+          },
+          "countAsQuest:1": 1,
+          "desc:8": "Before I let you unlock a flamethrower, it only makes sense you get one of these first. Its relatively straightforward. Load it with water, foam, or sand, and it snuffs out fire.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_fireext"
+          },
+          "name:8": "Fire Extinguisher",
+          "particle_count:3": -1,
+          "snd_complete:8": "random.levelup",
+          "snd_update:8": "random.levelup"
+        }
+      },
+      "questID:3": 1823649877,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "hbm:gun_fireext"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "id:8": "hbm:ammo_fireext"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -16074,7 +17382,7 @@
     },
     "8:10": {
       "lineID:3": 326713999,
-      "order:3": 9,
+      "order:3": 10,
       "properties:10": {
         "betterquesting:10": {
           "desc:8": "Start the doomsday clock.",
@@ -16146,7 +17454,7 @@
           "id:3": 400893227,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 48,
+          "x:3": -12,
           "y:3": -108
         },
         "9:10": {
@@ -16188,7 +17496,7 @@
           "id:3": 794718425,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -12,
+          "x:3": -48,
           "y:3": 144
         },
         "15:10": {
@@ -16202,7 +17510,7 @@
           "id:3": 875362029,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -48,
+          "x:3": -12,
           "y:3": 96
         },
         "17:10": {
@@ -16210,7 +17518,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 24,
-          "y:3": 96
+          "y:3": 144
         },
         "18:10": {
           "id:3": 1174837201,
@@ -16290,6 +17598,218 @@
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": -12
+        }
+      }
+    },
+    "10:10": {
+      "lineID:3": 1118207535,
+      "order:3": 9,
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "\"Ideas are more powerful than guns. We would not let our enemies have guns...\"",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "hbm:gun_uzi"
+          },
+          "name:8": "Weapons"
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 1823649829,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": -108
+        },
+        "1:10": {
+          "id:3": 1823649830,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": -60
+        },
+        "2:10": {
+          "id:3": 1823649832,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": -12
+        },
+        "3:10": {
+          "id:3": 1823649834,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": 36
+        },
+        "4:10": {
+          "id:3": 1823649835,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 36
+        },
+        "5:10": {
+          "id:3": 1823649837,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
+          "y:3": -12
+        },
+        "6:10": {
+          "id:3": 1823649839,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
+          "y:3": 36
+        },
+        "7:10": {
+          "id:3": 1823649841,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 144
+        },
+        "8:10": {
+          "id:3": 1823649842,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -156,
+          "y:3": 84
+        },
+        "9:10": {
+          "id:3": 1823649843,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -204,
+          "y:3": 144
+        },
+        "10:10": {
+          "id:3": 1823649844,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 84,
+          "y:3": 84
+        },
+        "11:10": {
+          "id:3": 1823649845,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 84,
+          "y:3": 144
+        },
+        "12:10": {
+          "id:3": 1823649846,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -60,
+          "y:3": -12
+        },
+        "13:10": {
+          "id:3": 1823649847,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -60,
+          "y:3": 36
+        },
+        "14:10": {
+          "id:3": 1823649848,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": 84
+        },
+        "15:10": {
+          "id:3": 1823649850,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 84
+        },
+        "16:10": {
+          "id:3": 1823649851,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -156,
+          "y:3": 36
+        },
+        "17:10": {
+          "id:3": 1823649852,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -60,
+          "y:3": 84
+        },
+        "18:10": {
+          "id:3": 1823649854,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -156,
+          "y:3": 144
+        },
+        "19:10": {
+          "id:3": 1823649860,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
+          "y:3": 144
+        },
+        "20:10": {
+          "id:3": 1823649863,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
+          "y:3": 84
+        },
+        "21:10": {
+          "id:3": 1823649864,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
+          "y:3": 192
+        },
+        "22:10": {
+          "id:3": 1823649865,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 240
+        },
+        "23:10": {
+          "id:3": 1823649867,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -60,
+          "y:3": 144
+        },
+        "24:10": {
+          "id:3": 1823649869,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": 192
+        },
+        "25:10": {
+          "id:3": 1823649870,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -60,
+          "y:3": 240
+        },
+        "26:10": {
+          "id:3": 1823649872,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -204,
+          "y:3": 84
+        },
+        "27:10": {
+          "id:3": 1823649877,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 84,
+          "y:3": 36
         }
       }
     }

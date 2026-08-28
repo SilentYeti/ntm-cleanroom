@@ -61,6 +61,36 @@
       "extra": "NONE"
     },
     {
+      "output": ["hbm:gun_amat_subtlety"],
+      "input": [
+        ["dict","ingotStarmetal"],
+        ["dict","plateTripleAluminum"],
+        ["dict","ingotStarmetal"],
+        ["dict","plateTripleAluminum"],
+        ["item","hbm:gun_amat"],
+        ["dict","plateTripleAluminum"],
+        ["dict","ingotStarmetal"],
+        ["dict","plateTripleAluminum"],
+        ["dict","ingotStarmetal"]
+      ],
+      "extra": "NONE"
+    },
+    {
+      "output": ["hbm:gun_amat_penance"],
+      "input": [
+        ["dict","ingotStarmetal"],
+        ["dict","plateTripleDuraSteel"],
+        ["dict","ingotStarmetal"],
+        ["item","hbm:weapon_mod_special"],
+        ["item","hbm:gun_amat"],
+        ["item","hbm:weapon_mod_special",1,9],
+        ["dict","ingotStarmetal"],
+        ["dict","plateTripleDuraSteel"],
+        ["dict","ingotStarmetal"]
+      ],
+      "extra": "NONE"
+    },
+    {
       "output": ["hbm:gun_flamer_daybreaker"],
       "input": [
         ["dict","plateTripleGold"],

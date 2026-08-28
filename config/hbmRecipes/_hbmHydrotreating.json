@@ -1,15 +1,15 @@
 {
   "recipes": [
     {
-      "input": "CRACKOIL",
-      "hydrogen": ["HYDROGEN",5,1],
-      "output1": ["CRACKOIL_DS",90],
-      "output2": ["SOURGAS",15]
-    },
-    {
       "input": "OIL",
       "hydrogen": ["HYDROGEN",5,1],
       "output1": ["OIL_DS",90],
+      "output2": ["SOURGAS",15]
+    },
+    {
+      "input": "GAS",
+      "hydrogen": ["HYDROGEN",5,1],
+      "output1": ["PETROLEUM",80],
       "output2": ["SOURGAS",15]
     },
     {
@@ -25,9 +25,9 @@
       "output2": ["SOURGAS",15]
     },
     {
-      "input": "GAS",
+      "input": "CRACKOIL",
       "hydrogen": ["HYDROGEN",5,1],
-      "output1": ["PETROLEUM",80],
+      "output1": ["CRACKOIL_DS",90],
       "output2": ["SOURGAS",15]
     },
     {

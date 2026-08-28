@@ -991,6 +991,8 @@ appliedenergistics2:facade:0, Cable Facade - Jungle Trim
 appliedenergistics2:facade:0, Cable Facade - Acacia Trim
 appliedenergistics2:facade:0, Cable Facade - Dark Oak Trim
 appliedenergistics2:facade:0, Cable Facade - Compact Raw Porkchop
+appliedenergistics2:facade:0, Cable Facade - tile.structure_anchor.name
+appliedenergistics2:facade:0, Cable Facade - Sand Bags
 appliedenergistics2:facade:0, Cable Facade - Gelid Euphemium
 appliedenergistics2:facade:0, Cable Facade - Unstable Euphemium Schrabide Block
 appliedenergistics2:facade:0, Cable Facade - Dark Crystal
@@ -1033,6 +1035,10 @@ appliedenergistics2:facade:0, Cable Facade - Ducrete
 appliedenergistics2:facade:0, Cable Facade - Ducrete Brick
 appliedenergistics2:facade:0, Cable Facade - Reinforced Ducrete
 appliedenergistics2:facade:0, Cable Facade - Raw Lightstone
+appliedenergistics2:facade:0, Cable Facade - Platemetal Block
+appliedenergistics2:facade:0, Cable Facade - Desert Stone
+appliedenergistics2:facade:0, Cable Facade - Block
+appliedenergistics2:facade:0, Cable Facade - Brick Forgotten Lock
 appliedenergistics2:facade:0, Cable Facade - Large Vinyl Tile
 appliedenergistics2:facade:0, Cable Facade - Laboratory Tiles
 appliedenergistics2:facade:0, Cable Facade - Cracked Laboratory Tiles
@@ -1131,6 +1137,7 @@ appliedenergistics2:facade:0, Cable Facade - Cracked Enargite Bricks
 appliedenergistics2:facade:0, Cable Facade - Magmatic Enargite Bricks
 appliedenergistics2:facade:0, Cable Facade - Radioactive Enargite Bricks
 appliedenergistics2:facade:0, Cable Facade - Arcane Enargite Bricks
+appliedenergistics2:facade:0, Cable Facade - Brittle Enargite Bricks
 appliedenergistics2:facade:0, Cable Facade - Enargite Glyph Bricks
 appliedenergistics2:facade:0, Cable Facade - Enargite Glyph Bricks
 appliedenergistics2:facade:0, Cable Facade - Enargite Glyph Bricks
@@ -1281,6 +1288,7 @@ appliedenergistics2:facade:0, Cable Facade - Block of Graphite
 appliedenergistics2:facade:0, Cable Facade - Drilled Graphite
 appliedenergistics2:facade:0, Cable Facade - Pile Control Rod
 appliedenergistics2:facade:0, Cable Facade - Pile Lithium Fuel (Bred)
+appliedenergistics2:facade:0, Cable Facade - Chicago Pile Graphite Bricks
 appliedenergistics2:facade:0, Cable Facade - Block of Australium
 appliedenergistics2:facade:0, Cable Facade - Depth Bricks
 appliedenergistics2:facade:0, Cable Facade - Depth Tiles
@@ -1364,6 +1372,7 @@ appliedenergistics2:facade:0, Cable Facade - Drill Pipe
 appliedenergistics2:facade:0, Cable Facade - Teleportation Anchor
 appliedenergistics2:facade:0, Cable Facade - High Energy Field Jammer
 appliedenergistics2:facade:0, Cable Facade - Capacitor Bus
+appliedenergistics2:facade:0, Cable Facade - Old Boiler
 appliedenergistics2:facade:0, Cable Facade - Muffler
 appliedenergistics2:facade:0, Cable Facade - Launch Pad Component Block
 appliedenergistics2:facade:0, Cable Facade - Launch Pad Scaffold Block
@@ -1681,27 +1690,6 @@ ironbackpacks:upgrade:0, Latch Upgrade
 ironbackpacks:upgrade:0, Extra Upgrade Point
 ironbackpacks:upgrade:0, Everlasting Upgrade
 naturescompass:naturescompass, Nature's Compass
-storagedrawers:upgrade_template, Upgrade Template
-storagedrawers:upgrade_storage:0, Storage Upgrade (I)
-storagedrawers:upgrade_storage:1, Storage Upgrade (II)
-storagedrawers:upgrade_storage:2, Storage Upgrade (III)
-storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
-storagedrawers:upgrade_storage:4, Storage Upgrade (V)
-storagedrawers:upgrade_one_stack, Storage Downgrade
-storagedrawers:upgrade_status:0, Status Upgrade (I)
-storagedrawers:upgrade_status:1, Status Upgrade (II)
-storagedrawers:upgrade_void, Void Upgrade
-storagedrawers:upgrade_conversion, Conversion Upgrade
-storagedrawers:upgrade_creative:0, Creative Storage Upgrade
-storagedrawers:upgrade_creative:1, Creative Vending Upgrade
-storagedrawers:upgrade_redstone:0, Redstone Upgrade
-storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
-storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
-storagedrawers:drawer_key, Drawer Key
-storagedrawers:shroud_key, Concealment Key
-storagedrawers:personal_key, Personal Key
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Packing Tape
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
@@ -1752,11 +1740,35 @@ storagedrawers:customdrawers:3, Framed Half Drawers 1x2
 storagedrawers:customdrawers:4, Framed Half Drawers 2x2
 storagedrawers:customtrim, Framed Trim
 storagedrawers:framingtable, Framing Table
+storagedrawers:upgrade_template, Upgrade Template
+storagedrawers:upgrade_storage:0, Storage Upgrade (I)
+storagedrawers:upgrade_storage:1, Storage Upgrade (II)
+storagedrawers:upgrade_storage:2, Storage Upgrade (III)
+storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
+storagedrawers:upgrade_storage:4, Storage Upgrade (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Status Upgrade (I)
+storagedrawers:upgrade_status:1, Status Upgrade (II)
+storagedrawers:upgrade_void, Void Upgrade
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Creative Storage Upgrade
+storagedrawers:upgrade_creative:1, Creative Vending Upgrade
+storagedrawers:upgrade_redstone:0, Redstone Upgrade
+storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
+storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
+storagedrawers:drawer_key, Drawer Key
+storagedrawers:shroud_key, Concealment Key
+storagedrawers:personal_key, Personal Key
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Packing Tape
 ichunutil:compact_porkchop, Compact Raw Porkchop
 gravitygun:gravitygun:0, Gravity Gun
 gravitygun:gravitygun:1, Supercharged Gravity Gun
 hbm:test_render, tile.test_render.name
+hbm:event_tester, tile.event_tester.name
 hbm:obj_tester, tile.obj_tester.name
+hbm:structure_anchor, tile.structure_anchor.name
+hbm:barricade, Sand Bags
 hbm:cheater_virus, Gelid Euphemium
 hbm:cheater_virus_seed, Unstable Euphemium Schrabide Block
 hbm:crystal_virus, Dark Crystal
@@ -1769,6 +1781,7 @@ hbm:machine_converter_he_rf, HE to RF Converter
 hbm:machine_converter_rf_he, RF to HE Converter
 hbm:asphalt, Asphalt
 hbm:asphalt_light, Glowing Asphalt
+hbm:asphalt_stairs, Asphalt Stairs
 hbm:reinforced_glass, Reinforced Glass
 hbm:reinforced_glass_pane, Reinforced Glass Pane
 hbm:reinforced_light, Reinforced Glowstone
@@ -1845,6 +1858,39 @@ hbm:lightstone:1, Lightstone Tile
 hbm:lightstone:2, Lightstone Bricks
 hbm:lightstone:3, Lightstone Chiseled Bricks
 hbm:lightstone:4, Chiseled Lightstone
+hbm:platemetal:0, Platemetal Block
+hbm:platemetal:1, Black Platemetal Block
+hbm:platemetal:2, White Platemetal Block
+hbm:platemetal:3, Red Platemetal Block
+hbm:platemetal:4, Green Platemetal Block
+hbm:platemetal:5, Light Gray Platemetal Block
+hbm:platemetal:6, Blue Platemetal Block
+hbm:platemetal:7, Purple Platemetal Block
+hbm:platemetal:8, Cyan Platemetal Block
+hbm:platemetal:9, Pink Platemetal Block
+hbm:platemetal:10, Lime Platemetal Block
+hbm:platemetal:11, Yellow Platemetal Block
+hbm:platemetal:12, Light Blue Platemetal Block
+hbm:platemetal:13, Magenta Platemetal Block
+hbm:platemetal:14, Orange Platemetal Block
+hbm:stone_biome:0, Desert Stone
+hbm:stone_biome:1, Woodland Stone
+hbm:vine_phosphor, Phosphor Vines
+hbm:wood_structure:0, Wooden Roof
+hbm:wood_structure:1, Wooden Scaffold
+hbm:wood_structure:2, Wooden Ceiling
+hbm:deco_emitter, Deco Light Emitter
+hbm:part_emitter, Deco Particle Emitter
+hbm:brick_forgotten:0, Block
+hbm:brick_forgotten:1, Block
+hbm:brick_forgotten:2, Block
+hbm:brick_forgotten:3, Block
+hbm:brick_forgotten:4, Block
+hbm:brick_forgotten:5, Block
+hbm:brick_forgotten:6, Block
+hbm:brick_forgotten_lock:0, Brick Forgotten Lock
+hbm:brick_forgotten_lock:1, Brick Forgotten Lock
+hbm:brick_forgotten_lock:2, Brick Forgotten Lock
 hbm:vinyl_tile:0, Large Vinyl Tile
 hbm:vinyl_tile:1, Small Vinyl Tiles
 hbm:tile_lab, Laboratory Tiles
@@ -1907,6 +1953,8 @@ hbm:reinforced_brick_slab:0, Reinforced Stone Slab
 hbm:brick_light_slab:0, Light Brick Slab
 hbm:brick_compound_slab:0, Compound Mesh Slab
 hbm:brick_asbestos_slab:0, Asbestos Brick Slab
+hbm:lightstone_tile_slab:0, Lightstone Tile Slab
+hbm:lightstone_bricks_slab:0, Lightstone Brick Slab
 hbm:brick_fire_slab:0, Firebrick Slab
 hbm:reinforced_sand_slab:0, Reinforced Sand Slab
 hbm:brick_obsidian_slab:0, Obsidian Brick Slab
@@ -2051,6 +2099,7 @@ hbm:brick_jungle_lava, Magmatic Enargite Bricks
 hbm:brick_jungle_ooze, Radioactive Enargite Bricks
 hbm:brick_jungle_mystic, Arcane Enargite Bricks
 hbm:brick_jungle_trap, Trapped Enargite Bricks
+hbm:brick_jungle_fragile, Brittle Enargite Bricks
 hbm:brick_jungle_glyph, Enargite Glyph Bricks
 hbm:brick_jungle_circle, Mechanist's Circle
 hbm:stone_keyhole, Strange Stone
@@ -2437,6 +2486,19 @@ hbm:block_graphite_detector:11, Pile Neutron Detector
 hbm:block_graphite_detector:12, Pile Neutron Detector
 hbm:block_graphite_detector:13, Pile Neutron Detector
 hbm:block_graphite_detector:14, Pile Neutron Detector
+hbm:pile_brick:0, Chicago Pile Graphite Bricks
+hbm:pile_device:0, Chicago Pile Fuel Loader
+hbm:pile_device:1, Chicago Pile Vent
+hbm:pile_device:2, Chicago Pile Control Rod
+hbm:pile_block:0, tile.pile_block_0.name
+hbm:pile_block:1, tile.pile_block_1.name
+hbm:pile_block:2, tile.pile_block_2.name
+hbm:pile_block:3, tile.pile_block_3.name
+hbm:pile_block:4, tile.pile_block_4.name
+hbm:pile_block:5, tile.pile_block_5.name
+hbm:pile_block:6, tile.pile_block_6.name
+hbm:pile_block:7, tile.pile_block_7.name
+hbm:pile_block:8, tile.pile_block_8.name
 hbm:block_australium, Block of Australium
 hbm:depth_brick, Depth Bricks
 hbm:depth_tiles, Depth Tiles
@@ -2509,11 +2571,13 @@ hbm:vitrified_barrel, Vitrified Nuclear Waste Drum
 hbm:lox_barrel, LOX Barrel
 hbm:taint_barrel, IMP Residue Barrel
 hbm:red_cable:0, Red Copper Cable
+hbm:red_cable_classic:0, Red Copper Cable (Classic)
 hbm:red_cable_box:0, Red Copper Boxcable
 hbm:red_cable_box:1, Red Copper Boxcable
 hbm:red_cable_box:2, Red Copper Boxcable
 hbm:red_cable_box:3, Red Copper Boxcable
 hbm:red_cable_box:4, Red Copper Boxcable
+hbm:oc_cable_paintable, Paintable Network Cable
 hbm:red_cable_paintable, Paintable Red Copper Cable
 hbm:red_wire_coated, Coated Red Copper Cable
 hbm:red_wire_sealed, Rad Sealed Red Copper Cable Block
@@ -2525,6 +2589,7 @@ hbm:red_cable_gauge, Power Gauge
 hbm:red_connector:0, Electricity Connector
 hbm:connector_red_super:0, Heavy Duty Electricity Connector
 hbm:red_pylon, Electricity Pylon
+hbm:red_pylon_steel_small, Steel Electricity Pylon
 hbm:red_pylon_large, Large Electricity Pylon
 hbm:red_pylon_medium_wood, Medium Wooden Electricity Pylon
 hbm:red_pylon_medium_transformer, Medium Wooden Electricity Pylon with Transformer
@@ -2588,6 +2653,19 @@ hbm:turret_sentry, Sentry Turret "Brown"
 hbm:turret_sentry_damaged, Sentry Turret "Edwin"
 hbm:rail_highspeed, High Speed Rail
 hbm:rail_booster, High Speed Booster Rail
+hbm:rail_wood, Wooden Tracks
+hbm:rail_narrow, Narrow Gauge Cart Rail
+hbm:rail_narrow_straight, tile.rail_narrow_straight.name
+hbm:rail_narrow_curve, tile.rail_narrow_curve.name
+hbm:rail_large_straight, Standard Gauge Rail (5m)
+hbm:rail_large_straight_short, Standard Gauge Rail (1m)
+hbm:rail_large_curve, Standard Gauge Curve Rail (5m)
+hbm:rail_large_curve_7, Standard Gauge Curve Rail (7m)
+hbm:rail_large_curve_9, Standard Gauge Curve Rail (9m)
+hbm:rail_large_ramp, Standard Gauge Ramp Rail (5m)
+hbm:rail_large_buffer, Standard Gauge Buffer Stop Rail (5m)
+hbm:rail_large_switch, Standard Gauge Switch Rail (15m, Left)
+hbm:rail_large_switch_flipped, Standard Gauge Switch Rail (15m, Right)
 hbm:machine_siren, Siren
 hbm:broadcaster_pc, Corrupted Broadcaster
 hbm:geiger, Geiger Counter
@@ -2614,6 +2692,7 @@ hbm:seal_frame, Silo Hatch Frame
 hbm:seal_controller, Silo Hatch Opener
 hbm:seal_hatch, Silo Hatch
 hbm:silo_hatch_drillgon, tile.silo_hatch_drillgon.name
+hbm:cargo_door, Cargo Door
 hbm:vault_door, Vault-Tec Blast Door
 hbm:blast_door, Sliding Blast Door
 hbm:sliding_blast_door_legacy, tile.sliding_blast_door_legacy.name
@@ -2867,7 +2946,14 @@ hbm:capacitor_tantalium, Tantalium Capacitor
 hbm:capacitor_schrabidate, Schrabidate Capacitor
 hbm:machine_cyclotron, Cyclotron
 hbm:machine_exposure_chamber, Exposure Chamber
+hbm:machine_supercomputer, Supercomputer
+hbm:machine_thresher, Automatic Thresher
 hbm:machine_radgen, Radiation-Powered Engine
+hbm:machine_industrial_generator, Industrial Generator
+hbm:machine_lpw2, LPW-2 Station Thruster
+hbm:launchpad_soyuz, Soyuz Launch Pad
+hbm:machine_satlink, Satellite Ground Station
+hbm:machine_tape_drive, Drive Enclosure
 hbm:pump_steam, Steam-Powered Groundwater Pump
 hbm:pump_electric, Electric Groundwater Pump
 hbm:heater_firebox, Firebox
@@ -2884,12 +2970,15 @@ hbm:machine_stirling_steel:0, Heavy Stirling Engine
 hbm:machine_stirling_creative:0, Creative Stirling Engine
 hbm:machine_sawmill, Stirling Sawmill
 hbm:heat_boiler, Large Boiler
+hbm:machine_boiler_off, Old Boiler
 hbm:machine_crucible, Crucible
 hbm:foundry_mold, Shallow Foundry Basin
 hbm:foundry_basin, Foundry Basin
 hbm:foundry_channel, Foundry Channel
 hbm:foundry_outlet, Foundry Outlet
 hbm:foundry_slagtap, Foundry Spill Outlet
+hbm:piston_inserter, Inserter
+hbm:foundry_tank, Foundry Storage Basin
 hbm:slag, tile.slag.name
 hbm:machine_industrial_boiler, Industrial Boiler
 hbm:radsensor, Radiation Sensor
@@ -3081,6 +3170,9 @@ hbm:pneumatic_tube, Pneumatic Tube
 hbm:pneumatic_tube_paintable, Paintable Pneumatic Tube
 hbm:pneumatic_storage_access, Pneumatic Storage Access
 hbm:pneumatic_storage_clutter, Pneumatic Storage Clutter
+hbm:pneumatic_storage_mono, Pneumatic Storage Network - Bulk Storage
+hbm:pneumatic_storage_exporter, Pneumatic Storage Network - Exporter
+hbm:pneumatic_storage_importer, Pneumatic Storage Network - Importer
 hbm:dungeon_chain, Metal Chain
 hbm:ladder_sturdy, Sturdy Wooden Ladder
 hbm:ladder_iron, Iron Ladder
@@ -3127,6 +3219,7 @@ hbm:wand_air, Structure Wand Block (Air)
 hbm:wand_loot, Structure Wand Block (Lootable)
 hbm:wand_jigsaw, Structure Wand Block (Jigsaw)
 hbm:wand_logic, Structure Wand Block (Logic)
+hbm:wand_structure:0, Structure Saving Block
 hbm:wand_tandem, tile.wand_tandem.name
 hbm:logic_block, Dungeon Action Block
 hbm:logic_block_invis, tile.logic_block_invis.name
@@ -3135,6 +3228,7 @@ hbm:mud_block, Poisonous Mud
 hbm:acid_block, Acid
 hbm:schrabidic_block, Schrabidic Acid
 hbm:corium_block, Corium
+hbm:concrete_liquid, tile.concrete_liquid.name
 hbm:volcanic_lava_block, Volcanic Lava
 hbm:rad_lava_block, Volcanic Lava
 hbm:sulfuric_acid_block, Sulfuric Acid
@@ -3206,6 +3300,7 @@ hbm:gun_kit_1, Gun Oil
 hbm:gun_kit_2, Gun Repair Kit
 hbm:radaway_strong, Strong RadAway
 hbm:euphemium_kit, Euphemium Kit
+hbm:nuke_electric_kit, Electronic Engineer's Kit
 hbm:cbt_device, CBT Device
 hbm:radaway_flush, Elite RadAway
 hbm:gas_mask_filter_rag, Makeshift Gas Mask Filter
@@ -3401,6 +3496,21 @@ hbm:battery_pack:10, Bismuth Capacitor
 hbm:battery_pack:11, Spark Capacitor
 hbm:battery_pack:11, Spark Capacitor
 hbm:battery_creative, Infinite Battery
+hbm:cart:0, Minecart
+hbm:cart:0, Minecart
+hbm:cart:0, Minecart
+hbm:cart:1, Crate Cart
+hbm:cart:2, Scrap Destroying Cart
+hbm:cart:2, Scrap Destroying Cart
+hbm:cart:3, Powder Cart
+hbm:cart:3, Powder Cart
+hbm:cart:3, Powder Cart
+hbm:cart:4, Semtex Cart
+hbm:cart:4, Semtex Cart
+hbm:cart:4, Semtex Cart
+hbm:train:0, Electric Flat Bed Tram
+hbm:train:1, item.train.cargo_tram_trailer.name
+hbm:coupling_tool, item.coupling_tool.name
 hbm:battery_generic, Battery (LEGACY)
 hbm:battery_red_cell, Redstone Power Cell (LEGACY)
 hbm:battery_red_cell_6, Sixfold Redstone Power Cell (LEGACY)
@@ -3424,6 +3534,7 @@ hbm:battery_spark_cell_25, Spark Arcane Car Battery (LEGACY)
 hbm:battery_spark_cell_100, Spark Arcane Energy Storage Array (LEGACY)
 hbm:battery_spark_cell_1000, Spark Arcane Mass-Energy Void (LEGACY)
 hbm:battery_spark_cell_2500, Spark Arcane Dirac Sea (LEGACY)
+hbm:cube_power, Electronium Cube
 hbm:battery_spark_cell_10000, Spark Solid Space-Time Crystal (LEGACY)
 hbm:battery_spark_cell_power, Spark Ludicrous Physics-Defying Energy Storage Unit (LEGACY)
 hbm:battery_potato, Potato Battery
@@ -3473,6 +3584,17 @@ hbm:upgrade_stack_2, Stack Ejection Upgrade Mk.II
 hbm:upgrade_stack_3, Stack Ejection Upgrade Mk.III
 hbm:fuel_additive:0, Tetraethyllead Antiknock Agent
 hbm:fuel_additive:1, Deicer
+hbm:drive:0, Flash Drive (Empty)
+hbm:drive:1, Disk Drive (Empty)
+hbm:drive:2, Flash Drive (Broken)
+hbm:drive:3, Disk Drive (Broken)
+hbm:drive:4, Flash Drive (Flight Simulation Data)
+hbm:drive:5, Flash Drive (Particle Simulation Data)
+hbm:drive:6, Disk Drive (Flight Data)
+hbm:drive:7, Disk Drive (Processed Flight Data)
+hbm:drive:8, Disk Drive (Orbital Data)
+hbm:drive:9, Disk Drive (Processed Orbital Data)
+hbm:drive:10, Klaus
 hbm:canister_empty, Empty Canister
 hbm:canister_fuel:10, Canister: Crude Oil
 hbm:canister_fuel:134, Canister: Desulfurized Crude Oil
@@ -4205,6 +4327,7 @@ hbm:igniter, Igniter
 hbm:chopper, Hunter Chopper
 hbm:spawn_worm, Balls-O-Tron Prime
 hbm:spawn_ufo, Martian Invasion Ship
+hbm:spawn_duck, Golden Egg
 hbm:bomb_caller:0, Airstrike Designator
 hbm:bomb_caller:1, Airstrike Designator
 hbm:bomb_caller:2, Airstrike Designator
@@ -4842,6 +4965,15 @@ hbm:pile_rod_source, Chicago Pile Ra226Be Neutron Source
 hbm:pile_rod_boron, Chicago Pile Control Rod
 hbm:pile_rod_lithium, Chicago Pile Lithium Cell
 hbm:pile_rod_detector, Chicago Pile Control & Detector Rod
+hbm:pile_rod:0, Chicago Pile Ra226Be Neutron source
+hbm:pile_rod:1, Chicago Pile Po210Be Neutron source
+hbm:pile_rod:2, Chicago Pile Zirconium Rod
+hbm:pile_rod:3, Chicago Pile Natural Uranium Rod
+hbm:pile_rod:4, Chicago Pile Plutonium-239 Rod
+hbm:pile_rod:5, Chicago Pile RGP Rod
+hbm:pile_rod:6, Chicago Pile Nuclear Waste Rod
+hbm:pile_rod:7, Chicago Pile Natural Thorium Rod
+hbm:pile_rod:8, Chicago Pile Thorium Fuel Rod
 hbm:rod_empty, Empty Rod
 hbm:rod_dual_empty, Empty Dual Rod
 hbm:rod_quad_empty, Empty Quad Rod
@@ -4951,6 +5083,7 @@ hbm:pwr_fuel_depleted:11, Depleted HES-326 PWR Fuel Rod
 hbm:pwr_fuel_depleted:12, Depleted HES-327 PWR Fuel Rod
 hbm:pwr_fuel_depleted:13, Depleted Fuel Grade Americium PWR BFB Rod
 hbm:pwr_fuel_depleted:14, Depleted Plutonium-241 PWR BFB Rod
+hbm:pwr_printer, PWR Printer
 hbm:rod:0, Lithium Rod
 hbm:rod:1, Tritium Rod
 hbm:rod:2, Cobalt Rod
@@ -5561,6 +5694,7 @@ hbm:oil_tar:2, Coal Tar
 hbm:oil_tar:3, Wood Tar
 hbm:oil_tar:4, Chlorinated Petroleum Wax
 hbm:oil_tar:5, Paraffin Wax
+hbm:coal_eternal, Eternal Coal
 hbm:solid_fuel, Solid Fuel
 hbm:solid_fuel_presto, Presto Log
 hbm:solid_fuel_presto_triplet, Boosted Presto Logs
@@ -6184,6 +6318,25 @@ hbm:book_guide_book:1, Guide Book
 hbm:book_guide_book:3, Guide Book
 hbm:book_guide_book:4, Guide Book
 hbm:book_lore, item.book_lore.name
+hbm:holotape_image:0, Holotape
+hbm:holotape_image:1, Holotape
+hbm:holotape_image:2, Holotape
+hbm:holotape_image:3, Holotape
+hbm:holotape_image:4, Holotape
+hbm:holotape_image:5, Holotape
+hbm:holotape_image:6, Holotape
+hbm:holotape_image:7, Holotape
+hbm:holotape_image:8, Holotape
+hbm:holotape_image:9, Holotape
+hbm:holotape_image:10, Holotape
+hbm:holotape_image:11, Holotape
+hbm:holotape_image:12, Holotape
+hbm:holotape_image:13, Holotape
+hbm:holotape_image:14, Holotape
+hbm:holotape_image:15, Holotape
+hbm:holotape_image:16, Holotape
+hbm:holotape_image:17, Holotape
+hbm:holotape_damaged, Damaged Holotape
 hbm:rune_blank, Blank Catalyst Matrix
 hbm:rune_isa, Cool Catalyst Matrix
 hbm:rune_dagaz, Balanced Catalyst Matrix
@@ -6601,6 +6754,7 @@ hbm:particle_dark, Dark Matter Capsule
 hbm:particle_strange, Strange Quark Capsule
 hbm:particle_sparkticle, Sparkticle Capsule
 hbm:particle_digamma, §cThe Digamma Particle§r
+hbm:particle_lutece, Lutece Quasiparticle
 hbm:capsule_xen, Xen Capsule
 hbm:singularity, Singularity
 hbm:singularity_counter_resonant, Contained Counter-Resonant Singularity
@@ -6868,6 +7022,20 @@ hbm:sat_foeq, PEAF - Mk.I FOEQ Duna Probe with experimental Nuclear Propulsion
 hbm:sat_resonator, Xenium Resonator Satellite
 hbm:sat_miner, Asteroid Mining Ship
 hbm:sat_lunar_miner, Lunar Mining Ship
+hbm:satellite:0, Spy Satellite
+hbm:satellite:1, Depth Scanning Satellite
+hbm:satellite:2, Radar Satellite
+hbm:satellite:3, Asteroid Mining Ship
+hbm:satellite:4, Lunar Mining Ship
+hbm:satellite:5, Orbital Precision Laser
+hbm:satellite:6, Orbital Death Ray
+hbm:satellite:7, Xenium Resonator Satellite
+hbm:satellite:8, RoR Relay Satellite
+hbm:satellite:9, Wideband Radio Emission Detector Satellite
+hbm:satellite:10, Narrowband Emission Scanning Satellite
+hbm:satellite:11, Space Laboratory
+hbm:satellite:12, Space Laboratory - 0G Assembler
+hbm:satellite:13, Space Laboratory - Sensor Relay
 hbm:sat_gerald, Gerald The Construction Android
 hbm:sat_chip, Satellite ID-Chip
 hbm:sat_interface, Satellite Control Interface
@@ -6898,8 +7066,6 @@ hbm:missile_n2, N² Missile
 hbm:missile_nuclear, Nuclear Missile
 hbm:missile_nuclear_cluster, Thermonuclear Missile
 hbm:missile_volcano, Tectonic Missile
-hbm:missile_endo, Endothermic Missile
-hbm:missile_exo, Exothermic Missile
 hbm:missile_shuttle, Reliant Robin Space Shuttle
 hbm:missile_doomsday, Doomsday Missile
 hbm:missile_doomsday_rusted, Damaged Doomsday Missile
@@ -6910,7 +7076,6 @@ hbm:missile_schrabidium, Schrabidium Missile
 hbm:missile_emp, EMP Missile
 hbm:missile_emp_strong, Strong EMP Missile
 hbm:missile_anti_ballistic, Anti-Ballistic Missile
-hbm:missile_carrier, HTR-01 Carrier Rocket
 hbm:missile_decoy, Decoy Missile
 hbm:missile_stealth, Stealth Missile
 hbm:missile_soyuz_lander, Orbital Module
@@ -6989,6 +7154,7 @@ hbm:mp_stability_10_space, Size 10 Space Fins
 hbm:mp_stability_15_flat, Size 15 Flat Fins
 hbm:mp_stability_15_thin, Size 15 Thin Fins
 hbm:mp_stability_15_soyuz, Size 15 Pointy Fins
+hbm:mp_stability_20_flat, Size 20 Flat Fins
 hbm:mp_fuselage_10_kerosene, Size 10 Kerosene Fuselage
 hbm:mp_fuselage_10_kerosene_camo, Size 10 Kerosene Fuselage
 hbm:mp_fuselage_10_kerosene_desert, Size 10 Kerosene Fuselage
@@ -7074,6 +7240,7 @@ hbm:mp_warhead_15_he, Size 15 HE Warhead
 hbm:mp_warhead_15_incendiary, Size 15 Incendiary Warhead
 hbm:mp_warhead_15_nuclear, Size 15 Nuclear Warhead
 hbm:mp_warhead_15_nuclear_shark, Size 15 Nuclear Warhead
+hbm:mp_warhead_15_nuclear_mimi, Size 15 Mimi-chan's Head
 hbm:mp_warhead_15_thermo, Size 15 Thermonuclear Warhead
 hbm:mp_warhead_15_mirv, Size 15 MIRV Warhead
 hbm:mp_warhead_15_boxcar, Size 15 Boxcar?
@@ -7224,6 +7391,13 @@ hbm:conveyor_wand:0, Conveyor Belt
 hbm:conveyor_wand:1, Express Conveyor Belt
 hbm:conveyor_wand:2, Double-Lane Conveyor Belt
 hbm:conveyor_wand:3, Triple-Lane Conveyor Belt
+hbm:boat_rubber, Rubber Boat
+hbm:structure_single, Structure Single Block Wand
+hbm:structure_solid, Structure Solid Fill Wand
+hbm:structure_pattern, Structure Pattern Wand
+hbm:structure_randomized, Structure Randomized Wand
+hbm:structure_randomly, Structure Random Fill Wand
+hbm:structure_custommachine, Custom Machine Structure Output Wand
 hbm:part_generic:0, Pneumatic Piston
 hbm:part_generic:1, Hydraulic Piston
 hbm:part_generic:2, Electric Piston
@@ -7245,6 +7419,15 @@ hbm:item_expensive:6, Bronze Structural Elements
 hbm:item_expensive:7, Plastic Panels
 hbm:item_expensive:8, item.item_expensive.gold_dust.name
 hbm:item_expensive:9, item.item_expensive.degenerate_matter.name
+hbm:ingot_metal:0, item.ingot_metal.scrap.name
+hbm:ingot_metal:1, Metal Ingot
+hbm:ingot_metal:2, Counter
+hbm:ingot_metal:3, Metal Key
+hbm:ingot_metal:4, Radio Homing Beacon
+hbm:ingot_metal:5, Metal Casing
+hbm:ingot_metal:6, Clockwork
+hbm:ingot_metal:7, Metal Bar
+hbm:ingot_metal:8, Detector
 hbm:chemical_dye:0, Chemical Dye (Black)
 hbm:chemical_dye:1, Chemical Dye (Red)
 hbm:chemical_dye:2, Chemical Dye (Green)

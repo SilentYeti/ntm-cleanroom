@@ -1,5 +1,5 @@
 {
-    "name": "NTM: Cleanroom",
+    "name": "NTM: Cleanroom Core",
     "version": "0.1.2",
     "overrides": [
         "config",
